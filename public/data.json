@@ -1,0 +1,2676 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "authors": "Materazzi et al. 2012",
+      "doi": "10.1007/s00424-011-1071-x",
+      "title": "TRPA1 and TRPV4 mediate paclitaxel-induced peripheral neuropathy in mice via a glutathione-sensitive mechanism",
+      "keywords": ["Paclitaxel", "GSH (antioxydant)", "TRPA1", "TRPV4"],
+      "models": ["WT & Trpa1-/- mice", "DRG cells"],
+      "techniques": ["Acetone test", "CGRP-immunoreactivity"],
+      "results": [
+        "Paclitaxel → cold and mecha hypersensitivity",
+        "Paclitaxel → CGRP release (sensory peptide implicated in pain)",
+        "GSH (antioxidant) → paclitaxel do not increases CGRP release",
+        "TRPA1 and/or TRPV4 antagonists → decrease of paclitaxel-evoked CGRP release"
+      ],
+      "notes": "Paclitaxel also triggers mechanical allodynia"
+    },
+    {
+      "id": 2,
+      "authors": "Andersson et al. 2008",
+      "doi": "10.1523/JNEUROSCI.5369-07.2008",
+      "keywords": [
+        "H2O2",
+        "4-HNE, 4-HHE, 4-ONE (lipid peroxidation product)",
+        "15d-PGJ2",
+        "TRPA1",
+        "TRPV1",
+        "TRPV4",
+        "TRPM8"
+      ],
+      "models": [
+        "CHO cells transfected with mTRPA1, rTRPV4, hTRPV1 or mTRPM8",
+        "DRG cells (from WT and Trpa1-/- Wistar rats)"
+      ],
+      "techniques": [
+        "Patch clamp (whole cell, single channel)",
+        "Ca2+ imaging/measure",
+        "Pain-related behavior measurement"
+      ],
+      "results": [
+        "H2O2 or lipid peroxidation products or 15dPGJ2 → TRPA1 opens → [Ca2+]i increase (H2O2 dose-dependent)",
+        "Explained at least partly by OH• production"
+      ],
+      "notes": "Pas d'effet consistant sur TRPV1, TRPV4 et TRPM8 dans cet article"
+    },
+    {
+      "id": 3,
+      "authors": "Bas et al., 2019",
+      "doi": "10.1038/s41598-018-37552-0",
+      "keywords": ["H2O2", "CHPx (induit stress oxydatif)", "GSH", "TRPM8"],
+      "models": [
+        "HEK293 cells (transfected with hTRPM8)",
+        "Human prostate cancer cells"
+      ],
+      "techniques": [
+        "Patch clamp (whole cell)",
+        "Ca2+ imaging/measure",
+        "apoptosis analyses"
+      ],
+      "results": [
+        "CHPx or H2O2 → Increased current through TRPM8",
+        "GSH → the current decrease"
+      ],
+      "notes": "Aussi des résultats sur intégrité mitochondriale et apoptose"
+    },
+    {
+      "id": 4,
+      "authors": "Nocchi et al., 2014",
+      "doi": "10.1111/acel.12208",
+      "keywords": ["H2O2", "TRPM8"],
+      "models": ["Mouse urothelial cells"],
+      "techniques": [
+        "Nerve electrical activity recording",
+        "Ca2+ imaging",
+        "qRT-PCR",
+        "Western blot"
+      ],
+      "results": ["H2O2 → TRPM8 overexpression + [Ca2+]i increase"]
+    },
+    {
+      "id": 5,
+      "authors": "Sakurai et al., 2009",
+      "doi": "10.1016/j.pain.2009.09.003",
+      "title": "Oxaliplatin-induced neuropathy in the rat: involvement of oxalate in cold hyperalgesia but not mechanical allodynia",
+      "keywords": ["Oxaliplatin", "oxalate"],
+      "models": ["Sprague-Dawley rats"],
+      "techniques": [
+        "Von Frey test (mechanical allodynia)",
+        "Acetone test and cold-plate test (cold hyperalgesia)",
+        "motor behavior tests"
+      ],
+      "results": [
+        "Oxaliplatin (oxalate) → cold hyperalgesia but no mechanical allodynia"
+      ]
+    },
+    {
+      "id": 6,
+      "authors": "Nozaki-Taguchi et al, 2001",
+      "doi": "10.1016/S0304-3959(01)00294-9",
+      "keywords": ["Vincristine"],
+      "models": ["Sprague-Dawley rats"],
+      "techniques": ["Von Frey test", "Heated plate"],
+      "results": [
+        "Vincristine → dose dependent tactile allodynia but no thermal allodynia (heat)"
+      ],
+      "notes": "They only test for heat sensitivity but not cold sensitivity"
+    },
+    {
+      "id": 7,
+      "authors": "Farshid et al., 2014",
+      "doi": "10.3109/01480545.2014.981753",
+      "keywords": [
+        "Doxorubicin",
+        "Histidine (antioxidant effect)",
+        "NAC (N-acetylcystein)"
+      ],
+      "models": ["Wistar rats"],
+      "techniques": [
+        "Acetone test",
+        "TAC (total antioxidant capacity) assay",
+        "MDA level assay",
+        "Histology"
+      ],
+      "results": [
+        "Doxorubicin → sciatic nerve lesion → cold allodynia",
+        "NAC and/or histidine → decrease of doxorubicin-induced lesions and allodynia + increase of TAC + decrease of MDA"
+      ],
+      "notes": "Pas trouvé d'articles sur doxorubicin + TRP sur PubMed"
+    },
+    {
+      "id": 8,
+      "authors": "Matta et al., 2019",
+      "doi": "10.1007/s12640-020-00176-2",
+      "keywords": [
+        "Epirubicin + docetaxel",
+        "Duloxetine (5-HT & NA reuptake inhib)",
+        "allopregnanolone (neuroprotector)"
+      ],
+      "models": ["Sprague-Dawley rats"],
+      "techniques": [
+        "Acetone test",
+        "Von Frey filaments test",
+        "Sciatic nerve action potential recording",
+        "Western blot"
+      ],
+      "results": [
+        "Epirubucin + docetaxel → cold allodynia (reduced by duloxetine + allopregnanolone)"
+      ],
+      "notes": "Article fortement résumé ici, mais le reste semble moins intéressant pour l'instant dans le contexte du stage"
+    },
+    {
+      "id": 9,
+      "authors": "Yamaguchi et al., 2016",
+      "doi": "10.1097/j.pain.0000000000000498",
+      "keywords": ["5-FU", "TRPA1", "TRPV1"],
+      "models": [
+        "Wistar rats (model of 5-FU induced oral ulcerative mucositis)"
+      ],
+      "techniques": ["Von Frey test"],
+      "results": ["5-FU seul → no enhanced nociception in the oral mucosa"],
+      "notes": "Article qui porte surtout sur les douleurs d'ulcères buccaux, le résultat rapporté est celui qui nous intéresse principalement pour l'instant. Human TRPA1 is sensitive to acid and insensitive to cold stimulation, in contrast to rodent TRPA1"
+    },
+    {
+      "id": 10,
+      "authors": "Tatsushima et al., 2013",
+      "doi": "10.1016/j.biopha.2012.10.006",
+      "keywords": [
+        "Oxaliplatin (modified FOLFOX6 regimen)",
+        "Calcium channel blockers"
+      ],
+      "models": ["Human patients"],
+      "techniques": ["Neuropathy evaluation (electronic medical charts)"],
+      "results": [
+        "Calcium channel blockers → reduction of oxaliplatin-induced acute pain (but not chronic pain)"
+      ],
+      "notes": "In the study using rats treated with oxaliplatin, we demonstrated that oxalate and platinum metabolites are involved in the cold hyperalgesia"
+    },
+    {
+      "id": 11,
+      "authors": "Barrière et al., 2012",
+      "doi": "10.1016/j.pain.2011.11.019",
+      "title": "Paclitaxel therapy potentiates cold hyperalgesia in streptozotocin-induced diabetic rats through enhanced mitochondrial reactive oxygen species production and TRPA1 sensitization",
+      "keywords": ["Paclitaxel", "TRPA1"],
+      "models": ["Sprague-Dawley rats (normoglycemic or diabetic)", "DRG"],
+      "techniques": [
+        "Cold bath (paw withdrawal)",
+        "Electron microscopy (mitoch morphology)",
+        "H2O2 production assay",
+        "qRT-PCR"
+      ],
+      "results": [
+        "Paclitaxel → cold allodynia + increased H2O2 production + increased complex I activity + decreased GPX4 expression + no effect on Trpa1 nor Nav1.9 expression",
+        "NAC or HC030031 (TRPA1 inhibitor) → decrease of paclitaxel-induced cold sensitivity"
+      ],
+      "notes": "ATTENTION : la plupart des résultats rapportés viennent d'une analyse visuelle des figures mais les stats dans l'article portent sur une comparaison entre rats diabétiques et non diabétiques sous paclitaxel"
+    },
+    {
+      "id": 12,
+      "authors": "Miyake et al., 2017",
+      "doi": "10.3389/fphys.2017.00878",
+      "keywords": ["Oxaliplatin", "TRPA1"],
+      "models": ["HEK293 transfected with hTRPA1"],
+      "techniques": [
+        "Patch clamp (whole cell, single channel (inside-out))",
+        "TRPA1 mutations: C633S, C641S, C665S or P394A",
+        "[Ca2+]I measuring"
+      ],
+      "results": [
+        "Oxaliplatin (1mM but not 0.1 nor 0.3 mM) → increased whole cell current and [Ca2+]i but no increase of TRPA1 opening probability",
+        "GSH → oxaliplatin do not increases [Ca2+]i",
+        "C641S mutation → decreases oxaliplatin-induced [Ca2+]I increase",
+        "P394A mutation → no effect on oxaliplatin-induced Ca2+ influx"
+      ],
+      "notes": "ARTICLE QUI EST VRAIMENT SUR LA MEME IDEE QUE LE SUJET DE STAGE. Si diminution [O2], diminution de l'activité des prolyl hydroxylases (PHDs) donc résidu Pro394 est moins hydroxylé, ce qui active donc le canal en condition d'hypoxie"
+    },
+    {
+      "id": 13,
+      "authors": "Chuang et al., 2009",
+      "doi": "10.1073pnas.0902675106",
+      "keywords": ["H2O2", "TRPV1"],
+      "models": ["HEK293"],
+      "techniques": ["Patch clamp (whole cell, inside-out)", "Ca2+ imaging"],
+      "results": [
+        "H2O2 → TRPV1 sensitization via inter-cysteine disulfide bonds within its cytoplasmic termini"
+      ]
+    },
+    {
+      "id": 14,
+      "authors": "Ta et al., 2010",
+      "doi": "10.1186/1744-8069-6-15",
+      "title": "Transient Receptor Potential Vanilloid 1 is essential for cisplatin-induced heat hyperalgesia in mice",
+      "keywords": [
+        "Cisplatin",
+        "Oxaliplatin (chronic)",
+        "TRPA1",
+        "TRPV1",
+        "TRPM8"
+      ],
+      "models": ["DRG neurons", "TG (trigerminal ganglion) neurons"],
+      "techniques": [
+        "Von Frey test",
+        "Cold-plate test",
+        "Tail immersion",
+        "Radiant heat assay",
+        "RT-PCR"
+      ],
+      "results": [
+        "Oxaliplatin → cold and mechanical but no heat hypersensitivity",
+        "Cisplatin → Heat and mechanical hypersensitivity but no cold sensitivity",
+        "In DRG: Cisplatin or oxaliplatine → increased TRPV1, TRPA1 and TRPM8 expression",
+        "In TG: Cisplatin → increased TRPA1 and TRPV1 expression, Oxaliplatin → increased TRPA1 expression"
+      ]
+    },
+    {
+      "id": 15,
+      "authors": "Sanchez et al., 2023",
+      "doi": "10.1007/s11064-022-03748-0",
+      "keywords": [
+        "Paclitaxel (acute)",
+        "TRPA1",
+        "PKA",
+        "PKC",
+        "PI3K inhibitors"
+      ],
+      "models": ["SH-SY5Y"],
+      "techniques": [
+        "Whole cell (voltage and current clamp)",
+        "Single channel (inside-out)",
+        "qPCR",
+        "WB"
+      ],
+      "results": [
+        "Paclitaxel → increased TRPA1 expression + increased whole cell current + increased TRPA1 opening proba + increased Ca2+ entry",
+        "H89 (inh PKA) ou CHEL (inh PKC) → decrease of paclitaxel-induced Ca2+ entry (WOR, a PI3K inhibitor, has no effect)"
+      ]
+    },
+    {
+      "id": 16,
+      "authors": "Wang et al., 2018",
+      "doi": "10.3892/ol.2018.7986",
+      "keywords": ["Vincristine (chronic)", "TRPV1", "TNF-alpha inhibitors"],
+      "models": [
+        "DRG neurons (Sprague-Dawley rats: neuropathic pain model by vincristine sulfate injection)"
+      ],
+      "techniques": [
+        "Von Frey test",
+        "Radiant heat test",
+        "WB",
+        "Whole cell recording"
+      ],
+      "results": [
+        "Vincristine (chronic treatment) → thermal and mecanical allodynia + increased TRPV1 expression via TNF-a increased synthesis + increased whole cell current"
+      ]
+    },
+    {
+      "id": 17,
+      "authors": "Chiba et al., 2017",
+      "doi": "10.1016/j.jphs.2017.03.004",
+      "keywords": ["Vincristine (chronic)", "TRPV1"],
+      "models": ["DRG neurons from vincristin-treated rats"],
+      "techniques": [
+        "Von Frey test",
+        "Western blot",
+        "In situ hybridization histochemistry & immunohistochemistry"
+      ],
+      "results": [
+        "Vincristine (chronic treatment) → mecanical allodynia + increased TRPV1 level (but not TRPV2) + increased TRPV1 mRNA, mainly in small diameter DRG"
+      ]
+    },
+    {
+      "id": 18,
+      "authors": "Khan et al., 2021",
+      "doi": "10.3390/ijms22116084",
+      "keywords": [
+        "Vincristine (chronic)",
+        "TRPV1",
+        "TRPM8",
+        "Whitametelin",
+        "Apoptosis"
+      ],
+      "models": [
+        "Mice chronically injected with vincristin sulfate (neuropathic pain model)"
+      ],
+      "techniques": [
+        "Von Frey test",
+        "Noxious heat test",
+        "Acetone test",
+        "Biochemical assays",
+        "Histopathology",
+        "Immunohistochemy",
+        "qRT-PCR",
+        "Molecular docking"
+      ],
+      "results": [
+        "Vincristin (chronic) → thermal and mechanical allodynia + decrease of GSH, GST and SOD levels and increase of Cat, MDA, MPO in ACC, insular cortex, amygdala, PAG, lombar SC and sciatic nerve + increase of cytokines and NO levels in these regions + histophathological alterations of sciatic nerve, spinal chord, hippocampus and cortex + DNA dammage + increase of TRPV1, TRPM8, P2Y receptors, JNK, ERK, p38, Bax and caspase-3 mRNA + decrease of Bcl2",
+        "Withametelin or gabapentin (neuroprotectors) → cancel vincristin effects"
+      ],
+      "notes": "Augmentation de la transcription de TRPV1 via voie p38-MAPK. JNK active caspase 3 et inhibe Bcl-2 → apoptose. Withameline se lie à casp-3 > TRPV1 > p38 > P2Y > TRPM8 > JNK"
+    },
+    {
+      "id": 19,
+      "authors": "Amirkhanloo et al., 2020",
+      "doi": "10.1111/bcpt.13454",
+      "keywords": [
+        "Vincristine (chronic)",
+        "TRPA1",
+        "TRPV1",
+        "NMDA",
+        "Modafinil"
+      ],
+      "models": [
+        "Wistar rats (injected with vincristine, neuropathic pain model)"
+      ],
+      "techniques": [
+        "Tail flick test (radiant heat)",
+        "Von frey filament test",
+        "Electrophy (motor nerve conduction)",
+        "WB"
+      ],
+      "results": [
+        "Vincristine → increased sensitivity to heat and tactile stimuli + weight loss + decreased sciatic nerve conduction (demyelination and degeneration) + increase in TRPA1 but not TRPV1 levels + increase in proinflammatory cytokines level",
+        "Modafinil or gabapentin (neuroprotector) → cancel vincristine effects"
+      ],
+      "notes": "Les effets de la vincristine passeraient donc plus par TRPA1 que par TRPV1 (le taux de TRPV1 en WB ne diminue pas significativement en condition vincristine par rapport au contrôle)"
+    },
+    {
+      "id": 20,
+      "authors": "Li et al., 2018",
+      "doi": "10.1159/000495828",
+      "keywords": ["Bortezomib (chronic)", "TRPA1", "TNF-alpha"],
+      "models": ["Wistar rats (neuropathic pain model bortezomib)", "DRG"],
+      "techniques": [
+        "Von Frey test",
+        "Thermal place preference (cold)",
+        "ELISA",
+        "WB"
+      ],
+      "results": [
+        "Bortezomib → increases cold and mechanical allodynia + increase in TNF-a, TNFR1 and TRPA1 levels + no increase in total p38-MAPK and JNK level but increase of their phorphorylated form",
+        "HC030031 (inh TRPA1) or PTX (inh TNF-a) → decrease cold/mecha sensitivity (dose dependant effect)",
+        "PTX → cancel bortezomib influence on TRPA1, TNF-a, TNFR1, p38-MAPK and JNK levels/phosphorylation"
+      ],
+      "notes": "On sait que TNF-a peut activer TRPA1 via la voie MAPK"
+    },
+    {
+      "id": 21,
+      "authors": "Liu et al., 2019",
+      "doi": "10.33549/physiolres.934015",
+      "keywords": ["Bortezomib (chronic)", "TRPA1", "IL-6"],
+      "models": ["Sprague-Dawley (neuropathic pain model bortezomib)"],
+      "techniques": [
+        "Von Frey test",
+        "Thermal place preference (cold)",
+        "ELISA",
+        "WB"
+      ],
+      "results": [
+        "Bortezomib → increased cold and mechanical allodynia + increased IL-6, IL-6R and TRPA1 level + increase in p38-MAPK and JNK phosphorylated forms but not in total protein amount",
+        "SC144 (IL-6R inh) → decreases bortezomib effect on IL-6, IL-6R, TRPA1, p38-MAPK and JNK"
+      ],
+      "notes": "Même article que le 20 (manips, forme) mais avec IL-6 au lieu de TNF-a"
+    },
+    {
+      "id": 22,
+      "authors": "Quartu et al., 2014",
+      "doi": "10.1155/2014/180428",
+      "keywords": ["Bortezomib", "TRPV1", "CGRP", "Substance P"],
+      "models": ["Wistar rats (chronic or acute BTZ injection) DRG"],
+      "techniques": [
+        "Dynamic plantar aesthesiometer (mecha)",
+        "Plantar test intrument (thermal)",
+        "Caudal nerve conduction velocity",
+        "Western blot",
+        "RT-PCR",
+        "Immunohisto"
+      ],
+      "results": [
+        "BTZ → no change in weight + mechanical allodynia + increased TRPV1 expression in DRG (chronic and acute treatment) and spinal cord (chronic treatment only) + decrease of TRPV1 mRNA levels in DRG (chronic treatment only) and of CGPR mRNA in DRG and spinal cord (chronic treatment only) + sciatic nerve axonopathy (affecting mostly small myelinated and unmyelinated fibers"
+      ],
+      "notes": "CGPR = sensory peptide"
+    },
+    {
+      "id": 23,
+      "authors": "Colvin et al., 2008",
+      "doi": "10.1200/JCO.2008.18.5017",
+      "keywords": ["Bortezomib", "TRPM8"],
+      "models": [
+        "69 year-old man with multiple myelomma, treated with bortezomib"
+      ],
+      "techniques": [
+        "Le patient a développé des douleurs neuropathiques et les traitements classiques opioids, gabapentine, pregabalin et ketamine avaient trop d'effets secondaires. Donc utilisation de crème au menthol, évaluation 90 minutes et 2 semaines"
+      ],
+      "results": [
+        "Menthol → No reduction in global pain score, but decrease of mechanical allodynia (the patient had no thermal allodynia) at t+90min"
+      ],
+      "notes": "Article sous forme de communication rapide. Bortezomib is a proteasome inhibitor"
+    },
+    {
+      "id": 24,
+      "authors": "De Logu et al., 2020",
+      "doi": "10.1186/s12915-020-00935-9",
+      "keywords": ["Thalidomide", "TRPA1", "TRPV4", "Oxidative stress"],
+      "models": [
+        "Sprague-Dawley rats + mice (WT, Trpa1-/-, Trpv4-/-, Trpv1-/-) DRG",
+        "HEK293"
+      ],
+      "techniques": [
+        "Von Frey test",
+        "Acetone test",
+        "Hot plate test",
+        "Calcimétrie",
+        "Immunofluorescence",
+        "Whole cell patch",
+        "Intraplantal (i.pl.) or intrathecal (i.th., spinal cord) injections to see peripheral and central channels implication"
+      ],
+      "results": [
+        "Thalidomide → cold and mechanical but no heat hypersensitivity, decreased by i.pl. HC03 or i.th. HC06 (respectively selective TRPA1 and TRPV4 antagonists) (they both have an the same effect via i.p. injection) or by deletion of TRPA1 and TRPV4 or by PBN. + Triggers no current in TRPA1 and TRPV4 positive DRG. + oxidative stress in hind paw, sciatic nerve and lumbar spinal cord",
+        "H2O2 → Ca2+ dose-dependant response in TRPV4 and TRPA1 (h & m) HEK, inhibited by HC03 but not HC06 (for low [H2O2]",
+        "PBN (ROS scavenger) or catalase (H2O2-detoxifying enzyme) → partially reduce thalidomide-induced mechanical allodynia when injected i.pl. or i.th. (if both injections, cancel thalimide effect)"
+      ],
+      "notes": "→ L'allodynie observée implique donc les canaux TRPA1 périphériques et TRPV4 centraux. Voir l'article (fig 5) pour la localisation plus précise des récepteurs. Les auteurs disent que l'effet de PBN (ROS scavenger) n'est pas direct puisque PBN ne change pas le courant mesuré en présence d'agoniste de TRPA1 et TRPV4 (→ pourquoi ne pas avoir testé sans les agonistes, pour voir si un courant apparaissait ?)"
+    },
+    {
+      "id": 25,
+      "authors": "Li et al., 2015",
+      "doi": "10.1523/JNEUROSCI.1956-15.2015",
+      "keywords": ["Paclitaxel (chronic and acute)", "TRPV1", "TLR4"],
+      "models": [
+        "Sprague-Dawley rats (4 i.p. injections) DRG",
+        "Transfected HEK293",
+        "Human DRG"
+      ],
+      "techniques": [
+        "Mechanical withdrawal test",
+        "Immunohistochemistry",
+        "Calcium imaging",
+        "Whole-cell patch"
+      ],
+      "results": [
+        "Paclitaxel → Mechanical hyperalgesia, partially reversed by AMG9810 (TRPV1 antagonist) + increase of the TRPV1-positive cell percentage (exept in presence of TLR4 antag) + Increase of DRG resting potential, decrease of rhéobase and AP amplitude + Prevent TRPV1 desensitization to capsaicin in DRG, and in HEK cells coexpriming TRPV1 and TLR4 (even increase the current compared to first capsaicin application), but not in Trpv1+/+/ Tlr4-/- HEK cells. + Increased EPSCs frequency (at day 7), exept in presence of TRPV1 antagonist AMG9810 (only a small increase in presence of TLR4 antagonist LPS)",
+        "LPS (TLR4 antagonist) → no paclitaxel-induced incease of TRPV1-positive cells"
+      ],
+      "notes": "ARTICLE TRES INTERESSANT A RELIRE EN DETAIL (chronic ou online, time after paclitaxel treatment, cell diversity...). Autre resultat : TRP1 et TLR4 sont colocalisés (mais pas systématiquement) dans les petits neurones DRG humains et murins. /!\"In naive rats, acute application of neither LPS nor paclitaxel induced increases in spontaneous action potentials\" → they had to incubate their cells with LPS or paclitaxel before testing for acute online effect. Note that elecrophysiological experiments were done at different time point after paclitaxel treatment → MAY BE INTERESTING ABOUT THE DURATION OF PACLITAXEL EFFECTS."
+    },
+    {
+      "id": 29,
+      "authors": "Leo et al., 2020",
+      "doi": "10.3390/ijms21228636",
+      "keywords": ["Oxaliplatin", "Cisplatin", "TRPA1", "TRPV1"],
+      "models": ["DRG neurons from untreated Wistar rats"],
+      "techniques": [
+        "ROS staining",
+        "TRPV1- A1-positive neurons staining",
+        "[Calcium] assessment",
+        "Mitochondrial stress assay"
+      ],
+      "results": [
+        "Cisplatin or oxaliplatin → Increases ROS production, mitochondrial stress, cytosolic and mitochondrial [Ca2+] in TRPV1- or/and TRPA1-positive cells",
+        "ROS production dynamic differs according to the cell type (TRPV1- or TRPA1-positive) AND the drug (CIS or OXAL)"
+      ],
+      "notes": "Plus de détails sur la production de ROS induite par les drogues"
+    },
+    {
+      "id": 30,
+      "authors": "Nassini et al., 2011",
+      "doi": "10.1016/j.pain.2011.02.051",
+      "keywords": ["Oxaliplatin", "Cisplatin", "TRPA1", "TRPV1", "GSH"],
+      "models": [
+        "Dunkin-Hartley guinea pig (CHO cells)",
+        "S-D rats",
+        "WT, TRPA1 KO mice"
+      ],
+      "techniques": [
+        "Von Frey filament",
+        "Randall-Selitto paw withdraw test (mecha)",
+        "Tail immersion test (cold)",
+        "Calcium imaging",
+        "Superoxide anion prod assay",
+        "RT-PCR"
+      ],
+      "results": [
+        "GSH → Prevent oxaliplatin- or cisplatin-induced intracellular [Ca2+] increase",
+        "Oxaliplatin → Mecha hypersensitivity, which is decreased by HC-03 (TRPA1 antag) but not by CPZ (TRPV1 antag) (this difference is visible 60 min after antagonist injection) + Cold hypersensitivity, except if KO TRPA1 + Increase of TRPA1 mRNA",
+        "Cisplatin → mechanical hypersensitivity, except for TRPA1 KO"
+      ],
+      "notes": "Pour les taux de Ca2+, plus de cellules répondent à oxaliplatine qu'à cisplatine. Interessant dans l'article : on a les mesures de douleur au moment du traitement avec antagoniste TRPA1 et V1 mais aussi 30, 60, 120 et 180 minutes après le traitement"
+    },
+    {
+      "id": 31,
+      "authors": "Descoeur et al., 2011",
+      "doi": "10.1002/emmm.201100134",
+      "title": "Oxaliplatin-induced cold hypersensitivity is due to remodelling of ion channel expression in nociceptors",
+      "keywords": ["Oxaliplatin (single injection)", "TRPA1", "TRPM8"],
+      "models": ["WT mice", "TRPM8 KO mice"],
+      "techniques": [
+        "Tail immersion test (cold)",
+        "Dynamic cold plate",
+        "Thermal place preference (cold)",
+        "Von Frey test",
+        "Pain behaviors",
+        "Ca2+ imaging",
+        "q-PCR"
+      ],
+      "results": [
+        "Oxaliplatin → cold hypersensitivity, canceled by TRPM8 KO + mecha hypersensitivity, not reversed by TRPM8 KO + Increase of TRPA1 but not TRPM8 mRNA levels",
+        "HC-03 (TRPA1 blocker) → no effect on oxaliplatin-induced cold intolerance (pain behavior ie jumps), but decreases OXAL-induced mechanical hypersensitivity",
+        "No direct effect of OXAL on TRPM8"
+      ],
+      "notes": "Donne aussi l'effet de l'oxaliplatine sur l'expression d'autres canaux (TREK, TRAAK, Kv1.1, Nav1.8, HCN1, HCN2, HCN3, HCN4) et montre qu'ils sont importants dans l'hypersensibilité due à l'oxaliplatine. Voir schema de la figure 10 qui spécifie l'implication différente de ces canaux dans les différentes formes d'allodynie"
+    },
+    {
+      "id": 32,
+      "authors": "Ertilav et al., 2020",
+      "doi": "10.1007/s12011-020-02250-4",
+      "keywords": ["Docetaxel", "TRPV1", "Melatonin", "Selenium"],
+      "models": [
+        "DRG from C57BL/6j treated mice",
+        "SH-SY5Y cells expressing TRPV1 (10h incubation with docetaxel)"
+      ],
+      "techniques": [
+        "Von Frey filament",
+        "Hot plate test",
+        "Whole cell patch",
+        "[Ca2+]i measurements",
+        "Apoptosis, cell viability, caspase-3 and -9 assays",
+        "MMP, ROS and antioxidant level",
+        "Western blot"
+      ],
+      "results": [
+        "Docetaxel → Thermal and mechanical allodynia + [Ca2+]i and TRPV1 current increase + apoptosis + increased lipid peroxidation, GSH levels + decrease of total antioxidant status + increase of TRPV1 protein level",
+        "Melatonin or Selenium → Decrease or reverse of docetaxel-induced effects"
+      ],
+      "notes": "Melatonin and selenium inhibit TRPV1, which prevent docetaxel effect (increased TRPV1 expression, current, Ca entry, decrease of antioxidant status...)"
+    },
+    {
+      "id": 33,
+      "authors": "Shim et al., 2019",
+      "doi": "10.1177/1744806919840098",
+      "keywords": ["Cisplatin", "Paclitaxel", "PBN (ROS scavenger)"],
+      "models": [
+        "C57BL/6N mice models of cisplatin- and paclitaxel-induced CNIP"
+      ],
+      "techniques": [
+        "Von Frey test",
+        "In vivo silencing of specific sensory fibers + intradermal, intraperitoneal or intrathecal PBN administration",
+        "Single afferent unit recording",
+        "Whole-cell patch"
+      ],
+      "results": [
+        "Cisplatin or paclitaxel → mechanical hypersensitivity",
+        "PBN → only intradermal (paw) and intraperitoneal (systemic) PBN decrease mecha hypersensitivity + Only intrathecal (spinal cord) and i.p. PBN decrease mecha hypersensitivity"
+      ],
+      "notes": "Cisplatin-induced mechanical hypersensitivity is attributed to peripheral oxidative stress sensitizing mechanical nociceptors, whereas paclitaxel-induced mechanical hypersensitivity is due to central (spinal) oxidative stress maintaining central sensitization that abnormally produces pain in response to Aβ fiber inputs"
+    },
+    {
+      "id": 34,
+      "authors": "Nicholas et al., 2017",
+      "doi": "10.1111/bph.13661",
+      "keywords": ["H2O2", "TRPA1", "TRPV1", "TRPM8"],
+      "techniques": ["Single unit extracellular recording"],
+      "results": [
+        "H2O2 → activates capsaicin-sensitive afferents",
+        "HC-03 (TRPA1 inh) → prevent H202-induced activation",
+        "Capsazepine (inh TRPV1) or TRPM8 inh → no reduction of H2O2-induced current"
+      ]
+    },
+    {
+      "id": 35,
+      "authors": "Caudle et al., 2017",
+      "doi": "10.3389/fpain.2022.868547",
+      "title": "Effects of Oxaliplatin on Facial Sensitivity to Cool Temperatures and TRPM8 Expressing Trigeminal Ganglion Neurons in Mice",
+      "keywords": ["Oxaliplatin", "Paclitaxel", "TRPM8"],
+      "models": ["TG from Trpm8-/+ SKH1 mice (2 OXAL injections)"],
+      "techniques": ["Orofacial pain assessment", "Whole cell patch"],
+      "results": [
+        "Paclitaxel or oxaliplatin → increased current (at all tested voltage) in TRPM8 positive TG cells, through Nav (explained by a change in the channel conductance more than by the number of channels) + change in whole cell TRPM8 or HCN currents (but no conductance tested or no change in conductance, respectively)"
+      ],
+      "notes": "Permet de justifier que, malgré le fait que la plupart des études portent sur l'expression et non les courants, on s'attend à avoir un effet de l'oxaliplatine sur l'ouverture de TRPM8 (et pas uniquement sur son expression)"
+    },
+    {
+      "id": 36,
+      "authors": "Fernàndez et al., 2011",
+      "doi": "10.1085/jgp.201010498",
+      "keywords": ["TRPM8"],
+      "models": ["HEK293 (transfected with TRPM8)"],
+      "techniques": ["Whole cell & cell attached patch"],
+      "results": [
+        "TRPM8 Popen increases with the membrane potential and shift to the left (increased Popen at low voltages) when its cold"
+      ],
+      "notes": "TRPM8 current caracterization (see figures) + kinetics of TRPM8 activation by voltage and cold. C'est un papier de l'équipe. /!\\Remarque de George : ici ils ont trouvé beaucoup d'états différents pour la cinétique MAIS George a réussi à avoir des modèles plus parcimonieux en patchant dans les 2h qui suivent l'induction de l'expression de TPM8"
+    },
+    {
+      "id": 37,
+      "authors": "Rimola et al., 2021",
+      "doi": "10.3390/ijms22094962",
+      "title": "Oxaliplatin Causes Transient Changes in TRPM8 Channel Activity",
+      "keywords": [
+        "Oxaliplatin",
+        "TRPM8",
+        "TRPV1",
+        "TRPM4",
+        "TRPA1",
+        "PLC",
+        "PKC",
+        "PIP2"
+      ],
+      "models": ["DRG from C57BL/6NRj mice", "Transfected HEK293 cells"],
+      "techniques": ["Calcium imaging", "PIP2 ELISA", "qRT-PCR"],
+      "results": [
+        "Oxaliplatin → decrease or increase of menthol-induced (TRPM8) Ca2+ current in DRG 24h or 1h (respectively) after OXAL treatment. BUT no impact on TRPV1, TRPA1, TRPM3 or P2X3 Ca2+ currents 24h after OXAL treatment + Decrease of [PIP2], especially when TRPM8 is expressed",
+        "PLC or PKC inhibitors (HEK) → prevent the oxaliplatin-induced decrease in TRPM8 Ca2+ current (24h after OXAL treatment)"
+      ],
+      "notes": "Inhibition of the PLC pathway reverse the oxaliplatin-induced desensitization of TRPM8 Ca2+ current 24h after oxaliplatin treatment. Bon indicateur que, peut être, OXAL agit sur le courant unitaire TRPM8 (figure 1D) en plus d'augmenter l'expression du canal"
+    },
+    {
+      "id": 38,
+      "authors": "Schwartz et al., 2009",
+      "doi": "10.1523/JNEUROSCI.3792-08.2009",
+      "keywords": [
+        "Superoxide dismutase (SOD-2)",
+        "Mitochondria",
+        "Capsaicin-induced secondary hyperalgesia"
+      ],
+      "models": ["WT & SOD-2 KO mice"],
+      "techniques": [
+        "Von Frey test",
+        "WB",
+        "SOD-2 activity analysis",
+        "In vivo ROS imaging"
+      ],
+      "results": [
+        "Capsaicin → Decrease of SOD-2 activity (reversed by ROS scavengers) + mechanical secondary hyperalgesia",
+        "MnTBAP (SOD mimetic) or TEMPOL (ROS scavenger) → reduction of capsaicin-induced secondary hyperalgesia",
+        "DETC (SOD inhibitor) or SOD-2 KO → increase of capsaicin-induced secondary hyperalgesia"
+      ],
+      "notes": "Dans abstract : superoxide est considéré comme le ROS neuronal principal. Primary hyperalgesia: caused by peripheral sensitization (injection site), Secondary hyperalgesia: caused by central sensitization (site distant from the capsaicin injection one)"
+    },
+    {
+      "id": 39,
+      "authors": "Gauchan et al., 2009",
+      "doi": "10.1016/j.neulet.2009.04.029",
+      "keywords": ["Oxaliplatin (single i.p. injection)", "TRPM8"],
+      "models": ["C57BL/6 mice", "L4-L5 spinal cord segments"],
+      "techniques": ["Acetone test", "RT-PCR"],
+      "results": [
+        "OXAL → cold allodynia + increased TRPM8 mRNA level (peak: 3days after injection)",
+        "Capsazepine → reduce OXAL-induced allodynia (dose dependant) (it's not true with 5-iodoresiniferatoxin, selective TRPV1 blocker)"
+      ],
+      "notes": "Article très court qui résume des résultats d'autres articles. Ils citent des articles pour argumenter que le timecourse des allodynies mécaniques et thermales ne sont pas identiques (suite à single OXAL injection: pic cold allodynia à d3, pic mecanical allodynia à d10) et que donc peut être que les mécanismes sont différents"
+    },
+    {
+      "id": 40,
+      "authors": "Siau et al., 2006",
+      "doi": "10.1213/01.ane.0000204318.35194.ed",
+      "keywords": ["Paclitaxel", "Vincristine", "Ca2+ chelators"],
+      "models": ["Sprague-Dawley rats"],
+      "techniques": [
+        "vonFrey filaments test",
+        "Randall-Selitto paw-pressure test",
+        "Radiant heat test"
+      ],
+      "results": [
+        "Paclitaxel or Vincristine → mechanical allodynia and hyperalgesia, decreased by EGTA, Quin-2 (Ca2+ chelators, extracellular actions), TMB8 (Ca2+ and Na+ channel blocker) which all decreased Ca2+ availability"
+      ],
+      "notes": "L'effet du paclitaxel et de la vincristine est réduit si on rend le Ca2+ intra- et extracellulaire moins disponible"
+    },
+    {
+      "id": 41,
+      "authors": "Schulze et al., 2011",
+      "doi": "10.1016/j.clcc.2011.03.010",
+      "keywords": ["Oxaliplatin"],
+      "models": ["SH-SY5Y, DRG, HEK-293 cells"],
+      "techniques": ["Ca2+ imaging"],
+      "results": [
+        "OXAL (acute 2.05 or 5.14 uM) → No Ca2+ increase 100 sec after bath application in SH-SY5Y (no TRP expression in these cells) and DRG cells",
+        "OXAL (24h incubation) → altered Ca2+ signalling in SH-SY5Y cells, partly because ER Ca2+ stocks are more important"
+      ],
+      "notes": "Acute oxaliplatin, contrary to longer incubation, did not induced abnormal Ca2+ signalling. Cela laisse penser que les TRP ne sont pas activés par l'oxaliplatine. 2.05 µM est une concentration thérapeutique selon l'article. Teste différentes concentrations d'oxaliplatine, en acute ou incubation. To avoid binding of oxaliplatin to seum protein, the cells were incubated with OXAL in serum-free culture media"
+    },
+    {
+      "id": 42,
+      "authors": "Anand et al., 2010",
+      "doi": "10.1186/1744-8069-6-82",
+      "keywords": ["Oxaliplatin", "TRPV1", "TRPM8", "TRPA1"],
+      "models": ["DRG from Wistar rats"],
+      "techniques": [
+        "Immunostaining",
+        "Calcium imaging with various TRP agonists"
+      ],
+      "results": [
+        "OXAL (acute) → increase sensitivity to capsaicin (ie increased answer to the second capsaicin application instead of the desensitization observed without OXAL) but no increase of cell sensitivity to WS12 (TRPM8 agonist)"
+      ],
+      "notes": "Acute oxaliplatin sensitize TRPV1 but not TRPM8. Donc peut être qu'on observera pas d'effet acute de l'OXAL sur le courant TRPM8 mais qu'on en observera sur TRPV1 ?"
+    },
+    {
+      "id": 43,
+      "authors": "Deuis et al., 2013",
+      "doi": "10.1016/j.pain.2013.05.032",
+      "title": "An animal model of oxaliplatin-induced cold allodynia reveals a crucial role for Nav1.6 in peripheral pain pathways",
+      "keywords": [
+        "Oxaliplatin",
+        "Oxalate",
+        "Nav1.1",
+        "Nav1.2",
+        "Nav1.3",
+        "Nav1.4",
+        "Nav1.6",
+        "Nav1.7",
+        "Nav1.8",
+        "Nav1.9",
+        "Kv1.1",
+        "Kv1.2",
+        "TRPM8",
+        "TRPA1",
+        "TRPC5"
+      ],
+      "models": [
+        "KO C57BL mice, single intraplantar injection of oxaliplatin or its metabolites (oxalate, Pt(DACH)Cl2) or various channels inhibitors"
+      ],
+      "techniques": [
+        "Von Frey filaments",
+        "Thermal plate test (from 5 to 42°C)",
+        "Membrane potential"
+      ],
+      "results": [
+        "Oxaliplatin (1.6-2 mg/kg) → dose dependant cold allodynia (for t° below 15°C, within minutes after injection, lasting 7 days max) + mecha allodynia (1h & 24h post injection) + no hot allodynia + no spontaneous pain upon injection",
+        "Oxalate or Pt(DACH)Cl2 (2.5 mM) → no allodynia",
+        "Oxalate (150 mM) or BAPTA (Ca2+ chelator, as oxalate also is) → Mechan allodynia + spontaneous post-injection pain + no cold allodynia",
+        "TTX (3 μM) → prevent cold allodynia",
+        "KO TRPM8 or TRPA1 or TRPC5 or Nav1.8 or Nav1.9 or Nav1.3 or ProTxII → still oxal-triggered allodynia",
+        "GIIIA 10 μM (inh Nav1.1 & 1.6) → Reverse oxal-induced cold allodynia",
+        "Cn2 (Nav1.6 activator) → dose-dependent spontaneous pain + mechanical allodynia + no cold or hot allodynia",
+        "4-AP (delay-rectifier channels inhibitor) → Triggers cold allodynia, reversed by GIIIA but not by TRPM8 or TRPA1 inhibition",
+        "4-AP (500 µM) + Cn2 (10 nM) → Increase of Cn2-triggered cold allodynia"
+      ],
+      "notes": "Chez l'humain, 2.5-3.5 mg/kg d'oxalipl sont utilisés. Oxaliplatin is rapidly hydrolyzed in vivo to bioactive derivatives through displacement of the oxalate group by H2O and Cl− to produce oxalate as well as reactive monochloro-, dichloro- and diaquo-diaminocyclohexane platinum metabolites. Nav1.8 et 1.9 sont des isoformes résistantes à la TTX. Nav1.3, 1.7, 1.1, 1.2, 1.6 sont sensibles à la TTX. CCLU : activation of Nav1.6 per se produced only spontaneous pain and mechanical allodynia, but when combined with inhibition of delayed rectifier potassium channels could enhance cold allodynia"
+    },
+    {
+      "id": 51,
+      "authors": "Yin et al., 2022",
+      "doi": "10.1126/science.add1268",
+      "title": "Activation mechanism of the mouse cold-sensing TRPM8 channel by cooling agonist and PIP2",
+      "keywords": ["TRPM8", "PIP2"],
+      "models": ["Mouse TRPM8"],
+      "techniques": ["Cryo-EM", "Patch clamp", "Molecular dynamics"],
+      "results": [
+        "PIP2 binding site identified in TRPM8",
+        "Cold and agonist binding sites mapped",
+        "Mechanism of TRPM8 activation elucidated"
+      ],
+      "notes": "Article fondamental sur le mécanisme d'activation de TRPM8"
+    },
+    {
+      "id": 52,
+      "authors": "Andersson et al., 2004",
+      "doi": "10.1523/JNEUROSCI.0890-04.2004",
+      "title": "TRPM8 Activation by Menthol, Icilin, and Cold Is Differentially Modulated by Intracellular pH",
+      "keywords": ["TRPM8", "Icilin", "Menthol", "Cold"],
+      "models": ["CHO cells"],
+      "techniques": ["Calcium imaging", "Whole cell patch"],
+      "results": [
+        "Activation of TRPM8 by icilin and cold, but not menthol, is modulated by intracellular pH in the physiological range",
+        "Activation by icilin and cold involve a different mechanism to activation by menthol"
+      ],
+      "notes": "Activation TRPM8 par icilin est delayée par rapport à activation par menthol"
+    },
+    {
+      "id": 53,
+      "authors": "Xu et al., 2024",
+      "doi": "10.1097/j.pain.0000000000002972",
+      "title": "Chemotherapy for pain: reversing inflammatory and neuropathic pain with the anticancer agent mithramycin A",
+      "keywords": [
+        "Oxaliplatin",
+        "Cisplatin",
+        "Mithramycin A (MTT)",
+        "TRPM8",
+        "TRPV1",
+        "TRPA1",
+        "Inflammation",
+        "ROS"
+      ],
+      "models": [
+        "DRG from C57Bl/6 male and female mice",
+        "OVCAR3 cells",
+        "HCT116 cells"
+      ],
+      "techniques": [
+        "Behavior tests (cold, hot, mechanical)",
+        "Calcium imaging",
+        "qRT-PCR",
+        "Immunohistochimie",
+        "Tests apoptose"
+      ],
+      "results": [
+        "Mithramycine A → reverse inflammation-induced (by CFA) and cisplatin-induced heat and mechanical hypersens + reverse oxal-induced cold and mechanical hypersens + reverse oxal-induced TRPM8 overexpression + decreases nb of DRG responding to cold after oxal treatment + reverse oxal-induced ROS increase in DRG",
+        "Oxal → Gros changement transcriptionnels dans DRG + ROS increase in DRG"
+      ],
+      "notes": "Mithramycin A (MTT) = agent chimio, inhibiteur de Sp-1-like transcription factors, lesquels régulent l'expression de TRPV1, A1, M8 dans DRG. Idée de douleurs acute ou persistent est prise en compte dans article. Profils d'expression de gènes liés à la douleur dans DRG après oxal !"
+    },
+    {
+      "id": 54,
+      "authors": "Journigan et al., 2019",
+      "doi": "10.1021/acschemneuro.9b00404",
+      "title": "Structure-Based Design of Novel Biphenyl Amide Antagonists of Human Transient Receptor Potential Cation Channel Subfamily M Member 8 Channels with Potential Implications in the Treatment of Sensory Neuropathies",
+      "keywords": ["TRPM8"],
+      "models": ["HEK 293"],
+      "techniques": ["Structure-based drug design"],
+      "results": ["Développement d'antagonistes TRPM8 pour la clinique"],
+      "notes": "Il n'y a pour l'instant aucun antagoniste de TRPM8 utilisé en clinique"
+    },
+    {
+      "id": 55,
+      "authors": "Odawara et al., 2022",
+      "doi": "10.1093/toxsci/kfac045",
+      "title": "In Vitro Pain Assay Using Human iPSC-Derived Sensory Neurons and Microelectrode Array",
+      "keywords": ["iPSC-derived sensory neurons"],
+      "models": ["iPSC-derived sensory neurons"],
+      "techniques": ["Microelectrode array"],
+      "results": [
+        "Proposent iPSC-derived sensory neurons comme modèle pour CIPN"
+      ],
+      "notes": "Nouveau modèle in vitro pour étudier la CIPN"
+    },
+    {
+      "id": 56,
+      "authors": "Wu et al., 2021",
+      "doi": "10.3389/fnmol.2021.690858",
+      "title": "Oxaliplatin Depolarizes the IB4− Dorsal Root Ganglion Neurons to Drive the Development of Neuropathic Pain Through TRPM8 in Mice",
+      "keywords": [
+        "Oxaliplatin (acute)",
+        "TRPA1",
+        "TRPM8",
+        "TRPV1",
+        "DRG membrane hyperactivity"
+      ],
+      "models": ["DRG dissociated from adult male C57BL/6 mice"],
+      "techniques": [
+        "Von Frey filaments",
+        "Infrared heating of the paw",
+        "Acetone test",
+        "Rotarod test",
+        "WC perforated patch clamp"
+      ],
+      "results": [
+        "Resting membrane potential IB4+ DRG ≈ -45 mV",
+        "Resting membrane potential IB4- DRG ≈ -50 mV",
+        "Oxal (acute, 50 μM) → IB4- neurons depolarization and decrease of Cm (ie increased excitability) (15-60min after oxal) but no IB4+ depol",
+        "Oxal (3-4 days after unique ip injection, 5mg/kg) → Mechanical and cold but no heat allodynia or motor impairment",
+        "Retigabine (Kv7 opener that hyperpolarizes DRG neurons resting potential) → prevents oxal-induced mecha allodynia, attenuates cold hyperalgesia + no impact on heat or motor behaviors",
+        "TC-I (TRPM8 blocker) or A-967079 (TRPA1 blocker) → prevent oxal-induced electrophysiological changes + TC-I but not A-967079 decreased mecha and cold hypersens",
+        "Capsazepine (TRPV1 blocker) → No prevention of oxal-induced electrophysiological changes"
+      ],
+      "notes": "Très utile pour mon sujet !!! TRPM8 n'est pas exprimé dans neurones IB4+. Les résultats trouvés ici ne sont pas observés par d'autres études, mais ici on est en patch perforé (amphotericine B) et non en WC classique. La perforation de la membrane plasmique au niveau de la pipette empêche les échanges de gros ions divalents et autres molécules entre le milieu intracell et la pipette. Le patch perforé grâce à l'amphotericine permet donc de maintenir la dynamique calcique intracellulaire sans influence de l'EGTA (Ca2+ chelator) inclus dans la pipette. TRPM8-mediated membrane depolarization plays a critical role in oxaliplatin-induced mecha and cold sensitivity"
+    },
+    {
+      "id": 57,
+      "authors": "Knowlton et al., 2011",
+      "doi": "10.1371/journal.pone.0025894",
+      "title": "Pharmacological blockade of TRPM8 ion channels alters cold and cold pain responses in mice",
+      "keywords": ["TRPM8"],
+      "models": ["Mice"],
+      "techniques": ["Behavioral tests"],
+      "results": ["TRPM8 blockade affects cold and cold pain responses"],
+      "notes": "Étude des effets du blocage pharmacologique de TRPM8"
+    },
+    {
+      "id": 58,
+      "authors": "Kawashiri et al., 2012",
+      "doi": "10.1186/1744-8069-8-7",
+      "title": "L type Ca2+ channel blockers prevent oxaliplatin-induced cold hyperalgesia and TRPM8 overexpression in rats",
+      "keywords": ["Oxaliplatin", "TRPM8", "L-type Ca2+ channels"],
+      "models": ["Rats"],
+      "techniques": ["Behavioral tests", "qRT-PCR"],
+      "results": [
+        "L-type Ca2+ channel blockers prevent oxaliplatin-induced cold hyperalgesia and TRPM8 overexpression"
+      ],
+      "notes": "Rôle des canaux Ca2+ de type L dans l'hyperalgésie au froid induite par l'oxaliplatine"
+    },
+    {
+      "id": 59,
+      "authors": "Miguel et al., 2022",
+      "doi": "10.1016/j.neulet.2022.136863",
+      "title": "Sex-related differences in oxaliplatin-induced changes in the expression of transient receptor potential channels and their contribution to cold hypersensitivity",
+      "keywords": ["Oxaliplatin", "TRP channels", "Sex differences"],
+      "models": ["Mice"],
+      "techniques": ["Behavioral tests", "qRT-PCR", "Immunohistochemistry"],
+      "results": [
+        "Sex differences in TRP channel expression changes after oxaliplatin treatment",
+        "Different contribution to cold hypersensitivity between sexes"
+      ],
+      "notes": "Étude des différences sexuelles dans les effets de l'oxaliplatine"
+    },
+    {
+      "id": 60,
+      "authors": "Iraci et al., 2022",
+      "doi": "10.3390/ijms23042070",
+      "title": "In Vitro and In Vivo Pharmacological Characterization of a Novel TRPM8 Inhibitor Chemotype Identified by Small-Scale Preclinical Screening",
+      "keywords": ["TRPM8", "Inhibitors"],
+      "models": ["HEK293", "Mice"],
+      "techniques": ["Patch clamp", "Behavioral tests"],
+      "results": [
+        "Identification and characterization of new TRPM8 inhibitors"
+      ],
+      "notes": "Établissement de nouveaux antagonistes de TRPM8"
+    },
+    {
+      "id": 61,
+      "authors": "Aierken et al., 2021",
+      "doi": "10.1002/advs.202101717",
+      "title": "Rational Design of a Modality-Specific Inhibitor of TRPM8 Channel against Oxaliplatin-Induced Cold Allodynia",
+      "keywords": ["TRPM8", "Oxaliplatin", "Cold allodynia"],
+      "models": ["HEK293"],
+      "techniques": ["Patch single channel"],
+      "results": [
+        "Development of a modality-specific TRPM8 inhibitor that inhibits ligand activation but not cold activation"
+      ],
+      "notes": "Établissement de nouveaux antagonistes de TRPM8. Celui-ci inhibe l'activation avec ligand mais pas avec froid (modality-specific)"
+    },
+    {
+      "id": 62,
+      "authors": "Bertamino et al., 2020",
+      "doi": "10.1021/acs.jmedchem.0c00816",
+      "title": "Exploration of TRPM8 Binding Sites by β‑Carboline-Based Antagonists and Their In Vitro Characterization and In Vivo Analgesic Activities",
+      "keywords": ["TRPM8", "Antagonists"],
+      "models": ["HEK293", "Mice"],
+      "techniques": ["Patch clamp", "Behavioral tests"],
+      "results": [
+        "Characterization of β-carboline-based TRPM8 antagonists",
+        "In vivo analgesic effects demonstrated"
+      ],
+      "notes": "Étude antagonistes de TRPM8"
+    },
+    {
+      "id": 63,
+      "authors": "Martìn-Escura et al., 2022",
+      "doi": "10.3390/ijms23052692",
+      "title": "β-Lactam TRPM8 Antagonist RGM8-51 Displays Antinociceptive Activity in Different Animal Models",
+      "keywords": ["TRPM8", "β-Lactam", "Antinociception"],
+      "models": ["Mice"],
+      "techniques": ["Behavioral tests"],
+      "results": [
+        "RGM8-51 shows antinociceptive activity in various pain models"
+      ],
+      "notes": "Nouveau β-lactame antagoniste de TRPM8 avec activité antinociceptive"
+    },
+    {
+      "id": 64,
+      "authors": "Martìn-Escura et al., 2023",
+      "doi": "10.3390/ijms241914894",
+      "title": "β-Lactam TRPM8 Antagonists Derived from Phe-Phenylalaninol Conjugates: Structure-Activity Relationships and Antiallodynic Activity",
+      "keywords": ["TRPM8", "β-Lactam", "Structure-activity relationships"],
+      "models": ["Mice"],
+      "techniques": ["Behavioral tests", "Structure-activity analysis"],
+      "results": [
+        "Structure-activity relationships of β-lactam TRPM8 antagonists",
+        "Antiallodynic activity demonstrated"
+      ],
+      "notes": "Même équipe que article 63"
+    },
+    {
+      "id": 65,
+      "authors": "Hsieh et al., 2015",
+      "doi": "10.1007/s00520-015-2773-y",
+      "title": "Low-level laser therapy alleviates mechanical and cold allodynia induced by oxaliplatin administration in rats",
+      "keywords": [
+        "Oxaliplatine",
+        "Low-level laser therapy (LLTT)",
+        "NGF",
+        "Substance P",
+        "TRPM8"
+      ],
+      "models": [
+        "Adult male S-D rats (oxal 4mg/kg, i.p., 4 jours tous les 3 jours)"
+      ],
+      "techniques": [
+        "Von Frey filaments",
+        "Acetone test",
+        "Cold-watyer limb-immersion",
+        "Menthol-evoked nocifensive behaviors",
+        "WB",
+        "Immunohistochimie"
+      ],
+      "results": [
+        "Oxal → mecha & cold allodynia, menthol hypersens + Increased TRPM8 and NGF prot lvl + Increase SP level",
+        "LLTT → reduce oxal-induced allodynia and menthol-evoked nocifensive behaviors + reverse TRPM8 and NGF increase + Reduce SP lvl"
+      ],
+      "notes": "Effet thérapeutique de la thérapie laser de bas niveau sur l'allodynie induite par l'oxaliplatine"
+    },
+    {
+      "id": 66,
+      "authors": "Hsieh et al., 2017",
+      "doi": "10.1016/j.ultrasmedbio.2017.03.002",
+      "title": "Analgesic Effects of Transcutaneous Ultrasound Nerve Stimulation in a Rat Model of Oxaliplatin-Induced Mechanical Hyperalgesia and Cold Allodynia",
+      "keywords": ["Oxaliplatin", "Ultrasound", "Pain"],
+      "models": ["Rats"],
+      "techniques": [
+        "Von Frey test",
+        "Cold plate test",
+        "Ultrasound stimulation"
+      ],
+      "results": [
+        "Ultrasound stimulation reduces oxaliplatin-induced mechanical hyperalgesia and cold allodynia"
+      ],
+      "notes": "Étude des effets analgésiques de la stimulation ultrasonique transcutanée"
+    },
+    {
+      "id": 67,
+      "authors": "Bertamino et al., 2018",
+      "doi": "10.1021/acs.jmedchem.8b00545",
+      "title": "Identification of a Potent Tryptophan-Based TRPM8 Antagonist With in Vivo Analgesic Activity",
+      "keywords": ["TRPM8", "Tryptophan", "Antagonist"],
+      "models": ["HEK293", "Mice"],
+      "techniques": ["Patch clamp", "Behavioral tests"],
+      "results": [
+        "Identification of a potent tryptophan-based TRPM8 antagonist",
+        "Demonstration of in vivo analgesic activity"
+      ],
+      "notes": "Identification antagoniste TRPM8"
+    },
+    {
+      "id": 68,
+      "authors": "Chukyo et al., 2018",
+      "doi": "10.1016/j.npep.2017.12.002",
+      "title": "Oxaliplatin-induced changes in expression of transient receptor potential channels in the dorsal root ganglion as a neuropathic mechanism for cold hypersensitivity",
+      "keywords": ["Oxaliplatin", "TRP channels", "DRG"],
+      "models": ["Rats"],
+      "techniques": ["qRT-PCR", "Immunohistochemistry"],
+      "results": [
+        "Overexpression of TRPA1, TRPV1, and TRPM8 in DRG after oxaliplatin treatment"
+      ],
+      "notes": "Apparemment (repris d'un autre article), on a une surexpression de A1, V1 et M8 dans les DRG suite à traitement oxaliplatine"
+    },
+    {
+      "id": 69,
+      "authors": "Yin et al., 2016",
+      "doi": "10.1177/1744806916646111",
+      "title": "Neuronal cell lines as model dorsal root ganglion neurons: A transcriptomic comparison",
+      "keywords": ["DRG", "Cell lines", "Transcriptomics"],
+      "models": [
+        "SH-SY5Y",
+        "F-11 rat et souris",
+        "ND7/23 rat et souris",
+        "DRG from mice"
+      ],
+      "techniques": ["RNA-Seq"],
+      "results": [
+        "None of the cell lines displayed an expression profile consistent with specific subclasses of sensory neurons"
+      ],
+      "notes": "Profils d'expression des GPCR et des canaux ioniques dans ces différentes cellules. Ils présentent beaucoup de marqueurs de DRG (fibres C, fibre mécanoceptrices…)"
+    },
+    {
+      "id": 70,
+      "authors": "Zheng et al., 2007",
+      "doi": "10.1152/jn.00559.2006",
+      "title": "Dissociation of Dorsal Root Ganglion Neurons Induces Hyperexcitability That Is Maintained by Increased Responsiveness to cAMP and cGMP",
+      "keywords": ["DRG", "Excitabilité neuronale"],
+      "models": [
+        "DRG de souris (soumis à compression in vivo ou non, isolés ou non du tissus environnant)"
+      ],
+      "techniques": ["Radiant heat test", "WC current- and voltage-clamp"],
+      "results": [
+        "Compression ou isolement des DRG → Augmentation de leur excitabilité via activation soutenue des voies cAPM-PKA et cGMP-PKG"
+      ],
+      "notes": "Étude de l'hyperexcitabilité des DRG après dissociation"
+    },
+    {
+      "id": 71,
+      "authors": "Huang et al., 2012",
+      "doi": "10.1016/j.pain.2012.03.025",
+      "title": "Chronic compression or acute dissociation of dorsal root ganglion induces cAMP-dependent neuronal hyperexcitability through activation of PAR2",
+      "keywords": ["DRG", "PAR2", "Hyperexcitability"],
+      "models": [
+        "DRG de souris (soumis à compression in vivo ou non, isolés ou non du tissus environnant)"
+      ],
+      "techniques": [
+        "siRNA PAR2",
+        "RT PCR",
+        "Immunofluo",
+        "Ca2+ imaging",
+        "WC current clamp"
+      ],
+      "results": [
+        "DRG compression (CCD) or dissociation → PAR2 activation and cAPM-PKA signalling"
+      ],
+      "notes": "Étude des mécanismes d'hyperexcitabilité des DRG via PAR2"
+    },
+    {
+      "id": 72,
+      "authors": "Tsantoulas et al., 2012",
+      "doi": "10.1523/JNEUROSCI.3561-12.2012",
+      "title": "Sensory neuron downregulation of the Kv9.1 potassium channel subunit mediates neuropathic pain following nerve injury",
+      "keywords": ["Neuropathic pain", "Kv9.1"],
+      "models": [
+        "Adult male Winstar rats with experimental neuropathy (section nerf L5)"
+      ],
+      "techniques": [
+        "Mechanical pain (Von Frey)",
+        "Heat pain (Hargreaves)",
+        "Hybridation in situ",
+        "Histochimie",
+        "qRT PCR",
+        "In vivo electrophy"
+      ],
+      "results": [
+        "Kv9.1 exprimé selectivement dans les neurones myélinisés de gros ou moyen diamètre, qui donnent principalement naissance aux fibres Aβ et Aδ, très peu exprimé dans les petits nocicepteurs peptidergiques ou non peptidergiques",
+        "Peripheral nerve injury → Kv9.1 downregulation dès les premières 24h suivant la chirurgie et presque plus exprimé à j3. Toujours dowregulated a j28",
+        "Dissociated DRG → Kv9.1 downregulation",
+        "Kv9.1 KO (by siRNA) → mechanical (but no heat) hyperalgesia + A-fibers hyperexcitability (increased spontaneous activity, PA de plus petite amplitude mais plus long)"
+      ],
+      "notes": "three protein markers of neuronal subpopulations: NF200, which stains medium-large myelinated neurons; CGRP, present in small peptidergic nociceptors; and IB4, expressed in small nonpeptidergic nociceptors."
+    },
+    {
+      "id": 73,
+      "authors": "Sheen et al., 1993",
+      "doi": "10.1016/0006-8993(93)91217-G",
+      "title": "Signs of neuropathic pain depend on signals from injured nerve fibers in a rat model",
+      "keywords": ["Neuropathic pain", "Spinal nerve", "Dorsal root"],
+      "models": [
+        "Sprague Dawley rats, ♂, with or without spinal nerve lesion or dorsal root rhizotomy (cutting)"
+      ],
+      "techniques": ["Von Frey", "Heat allodynia"],
+      "results": [
+        "L5-L6 nerve lesion → Heat and mechanical allodynia except if dorsal root was totally cut before",
+        "Cutting L5-L6 dorsal root → No heat or mecha allodynia"
+      ],
+      "notes": "Montre qu'il n'y a des douleurs uniquement si lésion du nerf à distance du DRG, il n'y a plus de douleurs si le nerf lésé ne communique plus avec les DRG. Permet de dire que DRG sont impliqués dans douleur neuropathiques"
+    },
+    {
+      "id": 74,
+      "authors": "Yoon et al., 1996",
+      "doi": "10.1016/0304-3959(95)00096-8",
+      "title": "Contributions of injured and intact afferents to neuropathic pain in an experimental rat model",
+      "keywords": ["Neuropathic pain", "Spinal nerve", "Dorsal root"],
+      "models": [
+        "Neuropathic pain rats (S-D, male) model (ie L5-L6 spinal nerve ligation) with or without L5-L6 or L3-L4 dorsal rhizotomy"
+      ],
+      "techniques": [
+        "Acetone test",
+        "Von Frey filament",
+        "Ongoing pain measurement"
+      ],
+      "results": [
+        "L5-L6 spinal nerve ligation → cold and mechanical allodynia",
+        "L5-L6 dorsal rhizotomy or local anaesthesia → Reverse L5-L6 ligation-induced allodynia within 24h",
+        "L3-L4 dorsal rhizotomy → Reversal of L5-L6 ligation-induced allodynia but no other paw stimulation elicited behavioral answer at this point (paw denervation)"
+      ],
+      "notes": "Suite des recherches de l'article 73"
+    },
+    {
+      "id": 75,
+      "authors": "Yamamoto et al., 2015",
+      "doi": "10.1186/s12990-015-0072-8",
+      "title": "Transient receptor potential ankyrin 1 that is induced in dorsal root ganglion neurons contributes to acute cold hypersensitivity after oxaliplatin administration",
+      "keywords": ["Oxaliplatine", "TRPA1", "IB4", "p38 MAPK"],
+      "models": [
+        "DRG from male WInstar rats",
+        "Oxal single i.p. dose (1, 3 or 6 mg/kg)"
+      ],
+      "techniques": ["RT PCR", "WB", "Immunohistochemistry", "FISH", "ISH"],
+      "results": [
+        "Oxal (3-6mg/kg) → cold allodynia + increase TRPA1 mRNA expression (day 1) and protein lvl (day 2)",
+        "p38 MAPK inhibitor injection → decrease oxal-induced cold hypersens"
+      ],
+      "notes": "Time course développement des douleurs et des changements d'expression. Etude de l'expression de A1 selon la morphologie des DRG, la présence d'IB4…"
+    },
+    {
+      "id": 76,
+      "authors": "Kono et al., 2012",
+      "doi": "10.1002/brb3.34",
+      "title": "Oxaliplatin-induced neurotoxicity involves TRPM8 in the mechanism of acute hypersensitivity to cold sensation",
+      "keywords": ["Oxaliplatine", "TRPM8", "Menthol", "Froid"],
+      "models": [
+        "Patients atteints de cancer colorectal traités par oxaliplatine"
+      ],
+      "techniques": [
+        "Application de menthol sur la langue",
+        "Seuil de détection du froid"
+      ],
+      "results": [
+        "Seuil de détection du froid : sain > oxal-treated advanced colorectal patients with grade 2 (or lower) neurotoxicity",
+        "Les patients traités à l'oxal détectent mieux le froid que les sujets sains, tant que la neurotoxicité n'est pas trop importante"
+      ],
+      "notes": "Étude clinique sur l'hypersensibilité au froid induite par l'oxaliplatine"
+    },
+    {
+      "id": 77,
+      "authors": "Nakahashi et al., 2014",
+      "doi": "10.1016/j.bbrc.2014.01.082",
+      "title": "Role of nerve growth factor-tyrosine kinase receptor A signaling in paclitaxel-induced peripheral neuropathy in rats",
+      "keywords": ["Paclitaxel", "NGF", "TrkA"],
+      "models": ["Rats SD traités par paclitaxel (ip, 8mg/kg, j0, 4, 7, 11)"],
+      "techniques": ["Von Frey", "qRT PCR", "WB"],
+      "results": [
+        "Paclitaxel → increase NGF & NGF trkA receptor expression in DRG but not their mRNA lvls"
+      ],
+      "notes": "Étude du rôle du NGF dans la neuropathie périphérique induite par le paclitaxel"
+    },
+    {
+      "id": 78,
+      "authors": "Mizuno et al., 2014",
+      "doi": "10.1254/jphs.13244fp",
+      "title": "Goshajinkigan, a traditional Japanese medicine, prevents oxaliplatin-induced acute peripheral neuropathy by suppressing functional alteration of TRP channels in rat",
+      "keywords": ["Goshajinkigan", "TRP channels", "Oxaliplatine"],
+      "models": ["Rats"],
+      "techniques": ["Évaluation comportementale", "Électrophysiologie"],
+      "results": [
+        "Goshajinkigan prévient la neuropathie périphérique aiguë induite par l'oxaliplatine"
+      ],
+      "notes": "Étude d'un médicament traditionnel japonais sur les effets de l'oxaliplatine"
+    },
+    {
+      "id": 79,
+      "authors": "Wen et al., 2013",
+      "doi": "10.1093/annonc/mds211",
+      "title": "Ca/Mg infusions for the prevention of oxaliplatin-related neurotoxicity in patients with colorectal cancer: a meta-analysis",
+      "keywords": ["Oxaliplatine", "Calcium", "Magnésium"],
+      "models": [
+        "Patients atteints de cancer colorectal traités par oxaliplatine"
+      ],
+      "techniques": ["Meta-analyse"],
+      "results": [
+        "Infusions de Ca/Mg préviennent la neurotoxicité liée à l'oxaliplatine"
+      ],
+      "notes": "Meta-analyse sur l'efficacité des infusions de Ca/Mg"
+    },
+    {
+      "id": 80,
+      "authors": "Aziz et al., 2014",
+      "doi": "10.1177/1060028014525033",
+      "title": "Serotonin-Norepinephrine Reuptake Inhibitors for the Management of Chemotherapy-Induced Peripheral Neuropathy"
+    },
+    {
+      "id": 101,
+      "authors": "Bidaux et al., 2015",
+      "doi": "10.1007/s00520-015-2642-8",
+      "title": "Epidermal TRPM8 channel isoform controls the balance between keratinocyte proliferation and differentiation in a cold-dependent manner",
+      "keywords": ["TRPM8 isoforms"],
+      "models": ["Epidermal cells"],
+      "techniques": [
+        "Patch clamp (single channel)",
+        "Western blot",
+        "PCR & RT-PCR"
+      ],
+      "results": [
+        "Characterization of TRPM8 isoforms in epidermal cells",
+        "IV curve for TRPM8"
+      ],
+      "notes": "Utilisation du même Ac anti-TRPM8 (même lot Alomone) - bande classique à 128-130 kDa vs 110-112 kDa observée"
+    },
+    {
+      "id": 102,
+      "authors": "Bidaux et al., 2016",
+      "doi": "10.1016/j.bbamcr.2018.04.007",
+      "title": "4TM-TRPM8 channels are new gatekeepers of the ER-mitochondria Ca2+ transfer",
+      "keywords": ["TRPM8 isoforms", "ER", "mitochondria"],
+      "models": ["Cell lines"],
+      "techniques": ["Patch clamp"],
+      "results": [
+        "4-TM TRPM8 isoforms form fully functional channels",
+        "Localization in ER and MAM",
+        "IV curve for TRPM8"
+      ],
+      "notes": "Dernier article de la série d'études sur TRPM8 et ses isoformes"
+    },
+    {
+      "id": 103,
+      "authors": "Peixoto-Neves et al., 2018",
+      "doi": "10.1016/j.bbrc.2018.10.120",
+      "title": "Oxidant-induced increase in norepinephrine secretion from PC12 cells is dependent on TRPM8 channel-mediated intracellular calcium elevation",
+      "keywords": ["TRPM8", "PC12"],
+      "models": ["PC12 cells"],
+      "techniques": [
+        "PCR",
+        "Patch clamp (whole cell)",
+        "Western blot",
+        "Immunofluorescence"
+      ],
+      "results": [
+        "TRPM8 expression in PC12 cells",
+        "WS12 → slight increase in whole cell current at 100 mV",
+        "TRPM8 band at 95-100 kDa with AP11769c antibody"
+      ],
+      "notes": "No testing of menthol and icilin"
+    },
+    {
+      "id": 104,
+      "authors": "Sleigh et al., 2016",
+      "doi": null,
+      "title": "A simple, step-by-step dissection protocol for the rapid isolation of mouse dorsal root ganglia",
+      "keywords": ["Protocol", "DRG"],
+      "models": ["Mouse DRG"],
+      "techniques": ["Dissection protocol"],
+      "results": ["Protocol for DRG extraction"],
+      "notes": "Protocol for rapid DRG isolation"
+    },
+    {
+      "id": 105,
+      "authors": "Malin et al., 2007",
+      "doi": "10.1038/nprot.2006.461",
+      "title": "Production of dissociated sensory neuron cultures and considerations for their use in studying neuronal function and plasticity",
+      "keywords": ["Protocol", "DRG"],
+      "models": ["DRG"],
+      "techniques": ["Culture protocol"],
+      "results": ["Protocol for DRG dissociation and culture"],
+      "notes": "Protocol for DRG dissociation and culture"
+    },
+    {
+      "id": 106,
+      "authors": "Sugimoto et al., 2022",
+      "doi": "10.5387/fms.2021-32",
+      "title": "Drug treatment for chemotherapy-induced peripheral neuropathy in patients with pancreatic cancer",
+      "keywords": [
+        "Pancreas cancer",
+        "FOLXIRINOX",
+        "Gemcitabine + nab-paclitaxel",
+        "Duloxetine",
+        "Pregabalin",
+        "Mirogabalin",
+        "Ca2+,Mg2+"
+      ],
+      "models": ["Human patients"],
+      "techniques": ["Review"],
+      "results": [
+        "Duloxetine and pregabalin reduce CIPN symptoms but have adverse effects",
+        "Pancreatic cancer patients with CIPN live slightly longer than those without"
+      ],
+      "notes": "Review of CIPN treatments focusing on colon and pancreatic cancer"
+    },
+    {
+      "id": 107,
+      "authors": "Whittle et al., 2021",
+      "doi": "10.1158/1538-7445.PANCA21-PO-076",
+      "title": "Murine adapted FOLFIRINOX for standard-of-care in KPC mice",
+      "keywords": ["FOLFIRINOX for mice"],
+      "models": ["KPC mice"],
+      "techniques": ["Protocol development"],
+      "results": [
+        "Development of appropriate dosing regimen incorporating 4 agents",
+        "Solution for continuous infusion component"
+      ],
+      "notes": "Abstract only - poster presentation"
+    },
+    {
+      "id": 108,
+      "authors": "Delahoussaye et al., 2022",
+      "doi": "10.1186/s12885-022-09255-3",
+      "title": "Feasibility of administering human pancreatic cancer chemotherapy in a spontaneous pancreatic cancer mouse model",
+      "keywords": ["FOLFIRINOX", "Gemcitabine+nab-paclitaxel"],
+      "models": ["KPC mice"],
+      "techniques": ["Drug administration"],
+      "results": [
+        "Effective use of FOLFIRINOX or Gemcitabine+nab-paclitaxel in mice",
+        "Detailed administration protocol established"
+      ],
+      "notes": "Protocol details for drug administration in mouse model"
+    },
+    {
+      "id": 109,
+      "authors": "Gadgil et al., 2019",
+      "doi": "10.1371/journal.pone.0221787",
+      "title": "A systematic summary and comparison of animal models for chemotherapy induced (peripheral) neuropathy (CIPN)",
+      "keywords": ["CIPN models in mice"],
+      "models": ["Mice models"],
+      "techniques": ["Systematic review"],
+      "results": [
+        "Analysis of 650 selected papers",
+        "183 unique CIPN models, 92 in mice",
+        "Dose proportions for oxaliplatin and paclitaxel",
+        "Age considerations in models"
+      ],
+      "notes": "Comprehensive review of mouse/rat models for peripheral neuropathy"
+    },
+    {
+      "id": 110,
+      "authors": "Murphy et al., 2022",
+      "doi": "10.1038/s42255-022-00591-z",
+      "title": "Guidelines for measuring reactive oxygen species and oxidative damage in cells and in vivo",
+      "keywords": ["ROS dosage"],
+      "models": ["In vitro and in vivo"],
+      "techniques": ["ROS measurement"],
+      "results": ["Guidelines for ROS measurement"],
+      "notes": "Comprehensive guidelines for ROS measurement"
+    },
+    {
+      "id": 111,
+      "authors": "Yao et al., 2018",
+      "doi": "10.1371/journal.pone.0205133",
+      "title": "Did you choose appropriate tracer for retrograde tracing of retinal ganglion cells? The differences between cholera toxin subunit B and Fluorogold",
+      "keywords": ["Retrograde tracing", "CTB", "Fluorogold (FG)"],
+      "models": ["Retinal ganglion cells"],
+      "techniques": ["Retrograde tracing"],
+      "results": [
+        "CTB (red) → retrograde and anterograde labeling, neurite labeling, less diffusion, fewer labeled neurons",
+        "FG (yellow) → more diffusion, more labeled neurons, long-lasting labeling"
+      ],
+      "notes": "Comparison of CTB and Fluorogold for neuronal tracing"
+    },
+    {
+      "id": 112,
+      "authors": "Lanciego et al., 2011",
+      "doi": "10.1016/j.jchemneu.2011.07.001",
+      "title": "A half century of experimental neuroanatomical tracing",
+      "keywords": ["Retrograde tracing"],
+      "models": ["Various neuronal systems"],
+      "techniques": ["Neuroanatomical tracing"],
+      "results": ["Comprehensive review of tracers and their properties"],
+      "notes": "Historical review of neuroanatomical tracing methods"
+    },
+    {
+      "id": 113,
+      "authors": "da Silva Serra et al., 2016",
+      "doi": "10.1177/1744806916636387",
+      "title": "Characterization of cutaneous and articular sensory neurons",
+      "keywords": ["Neurones sensoriels"],
+      "models": ["Sensory neurons"],
+      "techniques": ["Electrophysiology"],
+      "results": [
+        "Detailed characterization of cutaneous and articular sensory neurons",
+        "Importance of recording from identified neuronal populations"
+      ],
+      "notes": "Study of sensory neuron properties in different tissues"
+    },
+    {
+      "id": 114,
+      "authors": "Conroy et al., 2023",
+      "doi": "10.1016/j.annonc.2023.08.009",
+      "title": "Pancreatic cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+      "keywords": ["Pancreatic cancer", "Treatment"],
+      "models": ["Human patients"],
+      "techniques": ["Clinical guidelines"],
+      "results": ["Detailed guidelines for pancreatic cancer management"],
+      "notes": "ESMO guidelines for pancreatic cancer"
+    },
+    {
+      "id": 115,
+      "authors": "Screnci et al., 2000",
+      "doi": "10.1054/bjoc.1999.1026",
+      "title": "Relationships between hydrophobicity, reactivity, accumulation and peripheral nerve toxicity of a series of platinum drugs",
+      "keywords": ["Platines", "DRG", "Sang", "Cerveau"],
+      "models": ["DRG", "Blood", "Brain"],
+      "techniques": ["Accumulation analysis"],
+      "results": [
+        "Higher accumulation of oxaliplatin, cisplatin in DRG compared to other nervous system areas"
+      ],
+      "notes": "Study of platinum drug accumulation in nervous system"
+    },
+    {
+      "id": 116,
+      "authors": "Ta et al., 2006",
+      "doi": "10.1016/j.neuro.2006.04.010",
+      "title": "Neurotoxicity of oxaliplatin and cisplatin for dorsal root ganglion neurons correlates with platinum–DNA binding",
+      "keywords": ["Platines", "DRG", "Neurotoxicity"],
+      "models": ["DRG"],
+      "techniques": ["DNA binding analysis"],
+      "results": ["Cisplatin accumulates more in DRG DNA than oxaliplatin"],
+      "notes": "Comparison of platinum-DNA binding in DRG"
+    },
+    {
+      "id": 117,
+      "authors": "Tsantoulas et al., 2012",
+      "doi": "10.1523/JNEUROSCI.3561-12.2012",
+      "title": "Sensory Neuron Downregulation of the Kv9.1 Potassium Channel Subunit Mediates Neuropathic Pain following Nerve Injury",
+      "keywords": ["Kv9.1", "Nerve injury"],
+      "models": ["Nerve injury model"],
+      "techniques": ["Electrophysiology", "Expression analysis"],
+      "results": [
+        "Kv9.1 downregulation in sensory neurons after nerve injury",
+        "Role in neuropathic pain development"
+      ],
+      "notes": "Study of Kv9.1 in neuropathic pain"
+    },
+    {
+      "id": 118,
+      "authors": "Paniagua et al., 2021",
+      "doi": "10.1016/j.lfs.2021.119397",
+      "title": "Behavior and electrophysiology studies of the peripheral neuropathy induced by individual and co-administration of paclitaxel and oxaliplatin in rat",
+      "keywords": ["Aδ-fibers", "Oxaliplatin", "Paclitaxel"],
+      "models": ["Rats"],
+      "techniques": ["Electrophysiology", "Behavioral studies"],
+      "results": [
+        "Focus on Aδ-peripheral axons",
+        "CIPN affects preferentially myelinated fibers"
+      ],
+      "notes": "Study of excitability in Aδ fibers"
+    },
+    {
+      "id": 119,
+      "authors": "MacDonald et al., 2021",
+      "doi": "10.1093/brain/awab086",
+      "title": "Silent cold-sensing neurons contribute to cold allodynia in neuropathic pain",
+      "keywords": ["Cold-sensing neurons", "Neuropathic pain"],
+      "models": ["Neuropathic pain model"],
+      "techniques": ["Electrophysiology"],
+      "results": [
+        "In control mice, cold-sensing neurons were few and small",
+        "In neuropathic animals, normally silent large diameter neurons become cold-sensitive"
+      ],
+      "notes": "Study of cold-sensing neurons in neuropathic pain"
+    },
+    {
+      "id": 120,
+      "authors": "Qi et al., 2024",
+      "doi": "10.1016/j.cell.2024.02.006",
+      "title": "A mouse DRG genetic toolkit reveals morphological and physiological diversity of somatosensory neuron subtypes",
+      "keywords": ["DRG populations", "Cre mice"],
+      "models": ["Cre mice"],
+      "techniques": ["Genetic analysis"],
+      "results": [
+        "At least 15 different DRG sensory neuron populations",
+        "7 populations express CGRP alpha",
+        "Different populations project to different targets",
+        "Different populations respond to different stimuli"
+      ],
+      "notes": "Comprehensive study of DRG neuron diversity"
+    },
+    {
+      "id": 121,
+      "authors": "Usoskin et al., 2015",
+      "doi": "10.1038/nn.3881",
+      "title": "Unbiased classification of sensory neuron types by large-scale single-cell RNA sequencing",
+      "keywords": ["DRG", "Single cell RNA-seq"],
+      "models": ["DRG"],
+      "techniques": ["Single cell RNA-seq"],
+      "results": [
+        "First unbiased classification of DRG neurons based on transcriptome"
+      ],
+      "notes": "First unbiased classification of DRG neurons"
+    },
+    {
+      "id": 122,
+      "authors": "Zhang et al., 2022",
+      "doi": "10.7554/eLife.76063",
+      "title": "scRNA-sequencing reveals subtype-specific transcriptomic perturbations in DRG neurons of PirtEGFPf mice in neuropathic pain condition",
+      "keywords": [
+        "DRG",
+        "Nerve injury",
+        "Single cell RNA-seq",
+        "Sex differences"
+      ],
+      "models": ["PirtEGFPf mice"],
+      "techniques": ["Single cell RNA-seq"],
+      "results": [
+        "12 neuronal populations identified in DRG",
+        "Comparison of transcriptomes in healthy and neuropathic conditions"
+      ],
+      "notes": "Study of DRG neuron populations in neuropathic pain"
+    },
+    {
+      "id": 123,
+      "authors": "Renthal et al., 2020",
+      "doi": "10.1016/j.neuron.2020.07.026",
+      "title": "Transcriptional Reprogramming of Distinct Peripheral Sensory Neuron Subtypes after Axonal Injury",
+      "keywords": ["DRG", "Nerve injury", "Single nuclei RNA-seq", "ATF3"],
+      "models": ["DRG"],
+      "techniques": ["Single nuclei RNA-seq"],
+      "results": [
+        "New transcriptional state in DRG neurons after axonal injury",
+        "Profound reprogramming observed"
+      ],
+      "notes": "Study of transcriptional changes after nerve injury"
+    },
+    {
+      "id": 124,
+      "authors": "Candelas et al., 2019",
+      "doi": "10.1038/s41598-019-39703-3",
+      "title": "Cav3.2 T-type calcium channels shape electrical firing in mouse Lamina II neurons",
+      "keywords": ["Cav3.2 T-type calcium channels", "Lamina II spinal cord"],
+      "models": ["Mouse spinal cord"],
+      "techniques": ["Electrophysiology"],
+      "results": [
+        "Cav3.2 necessary for acute pain perception",
+        "Involved in mechanical and cold allodynia"
+      ],
+      "notes": "Role of Cav3.2 in pain perception"
+    },
+    {
+      "id": 125,
+      "authors": "Beaulieu-Laroche et al., 2020",
+      "doi": "10.1016/j.cell.2020.01.033",
+      "title": "TACAN Is an Ion Channel Involved in Sensing Mechanical Pain",
+      "keywords": ["Mechanical pain", "Ion channels"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": [
+        "Review of potassium channels in cold sensitivity modulation"
+      ],
+      "notes": "Review of mechanical pain sensing"
+    },
+    {
+      "id": 126,
+      "authors": "Lolignier et al., 2016",
+      "doi": "10.1523/JNEUROSCI.2327-16.2016",
+      "title": "New Insight in Cold Pain: Role of Ion Channels, Modulation, and Clinical Perspectives",
+      "keywords": ["TRPA1", "TRPM8", "Cold pain"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": [
+        "Review of TRPA1 and TRPM8 roles in cold perception",
+        "Discussion of contradictory studies"
+      ],
+      "notes": "Revue très utile pour replacer A1 et M8 dans la perception du froid, ils parlent des études contradictoires notamment"
+    },
+    {
+      "id": 127,
+      "authors": "Haroun et al., 2023",
+      "doi": "10.3389/fpain.2022.1030899",
+      "title": "Mechanisms of cancer pain",
+      "keywords": ["Cancer pain"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Review of cancer pain mechanisms"],
+      "notes": "Review article on cancer pain mechanisms"
+    },
+    {
+      "id": 128,
+      "authors": "Coveler et al., 2021",
+      "doi": "10.1002/onco.13796",
+      "title": "Pancreas Cancer-Associated Pain Management",
+      "keywords": ["Pancreatic cancer", "Pain management"],
+      "models": ["Human patients"],
+      "techniques": ["Clinical review"],
+      "results": ["Review of pain management strategies in pancreatic cancer"],
+      "notes": "Clinical perspective on pancreatic cancer pain management"
+    },
+    {
+      "id": 129,
+      "authors": "Lohse et al., 2020",
+      "doi": "10.21873/anticanres.14133",
+      "title": "Pathogenesis and Treatment of Pancreatic Cancer Related Pain",
+      "keywords": ["Pancreatic cancer", "Pain pathogenesis"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Review of pancreatic cancer pain mechanisms and treatments"],
+      "notes": "Review of pain mechanisms in pancreatic cancer"
+    },
+    {
+      "id": 130,
+      "authors": "Hirth et al., 2020",
+      "doi": "10.1053/j.gastro.2020.04.037",
+      "title": "CXCL10 and CCL21 Promote Migration of Pancreatic Cancer Cells Toward Sensory Neurons and Neural Remodeling in Tumors in Mice, Associated With Pain in Patients",
+      "keywords": ["CXCL10", "CCL21", "Pancreatic cancer", "Sensory neurons"],
+      "models": ["Mice", "Human patients"],
+      "techniques": ["Migration assays", "Pain assessment"],
+      "results": [
+        "CCL21 and CXCL10 promote cancer cell migration toward sensory neurons",
+        "Inhibition of these chemokines reduces hypersensitivity",
+        "High levels of CXCR3 and CCR7 correlate with increased pain"
+      ],
+      "notes": "In an unbiased screen of chemokines, they identified CCL21 and CXCL10 as proteins that promote migration of pancreatic cancer cells toward sensory neurons"
+    },
+    {
+      "id": 131,
+      "authors": "di Mola et al., 2008",
+      "doi": null,
+      "title": "Pain and pain generation in pancreatic cancer",
+      "keywords": ["Pancreatic cancer", "Pain mechanisms"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Review of pain generation mechanisms in pancreatic cancer"],
+      "notes": "Review of pancreatic cancer pain mechanisms"
+    },
+    {
+      "id": 132,
+      "authors": "Hirth et al., 2022",
+      "doi": "10.3390/cells11172634",
+      "title": "Genetic Mouse Models to Study Pancreatic Cancer-Induced Pain and Reduction in Well-Being",
+      "keywords": ["KPC mice", "KPPC mice", "Pain models"],
+      "models": ["KPC mice", "KPPC mice"],
+      "techniques": ["Mouse model comparison"],
+      "results": [
+        "KPC is good model for cancer pain studies",
+        "KPPC is good model for studying global well-being reduction"
+      ],
+      "notes": "Comparaison modèles KPC, KPPC, et orthotopic models pour l'étude de la douleur due au cancer"
+    },
+    {
+      "id": 133,
+      "authors": "Lindsay et al., 2005",
+      "doi": "10.1016/j.pain.2005.10.019",
+      "title": "Pancreatic cancer pain and its correlation with changes in tumor vasculature, macrophage infiltration, neuronal innervation, body weight and disease progression",
+      "keywords": ["Pancreatic cancer", "Pain correlation"],
+      "models": ["Various"],
+      "techniques": ["Correlation analysis"],
+      "results": ["Correlation between pain and various cancer parameters"],
+      "notes": "Study of correlations between pain and cancer progression"
+    },
+    {
+      "id": 134,
+      "authors": "Selvaraj et al., 2017",
+      "doi": "10.1097/j.pain.0000000000000956",
+      "title": "A mouse model for pain and neuroplastic changes associated with pancreatic ductal adenocarcinoma",
+      "keywords": ["PDAC", "Pain model"],
+      "models": ["Orthotopic model (K8484 cells)"],
+      "techniques": ["Mouse model development"],
+      "results": ["Development of orthotopic PDAC pain model"],
+      "notes": "Development of orthotopic model using K8484 cells"
+    },
+    {
+      "id": 135,
+      "authors": "Shiers et al., 2020",
+      "doi": "10.1097/j.pain.0000000000001973",
+      "title": "Quantitative differences in neuronal subpopulations between mouse and human dorsal root ganglia demonstrated with RNAscope in situ hybridization",
+      "keywords": ["DRG", "Mouse vs human", "RNA-scope"],
+      "models": ["Mouse and human DRG"],
+      "techniques": ["RNA-scope in situ hybridization"],
+      "results": [
+        "Nav1.8 specific to nociceptors in both species",
+        "KCNS1 expressed in 55.5% mouse vs 42.4% human DRG neurons",
+        "TRPV1 in 30.3% mouse vs 74.7% human neurons",
+        "TRPA1 in 53.2% mouse vs 16.3% human neurons"
+      ],
+      "notes": "NF200 expressed in all human DRG sensory neurons but not in mouse"
+    },
+    {
+      "id": 136,
+      "authors": "Besikcioglu et al., 2021",
+      "doi": "10.1016/j.xpro.2021.100935",
+      "title": "Innervated mouse pancreas organoids as an ex vivo model to study pancreatic neuropathy in pancreatic cancer",
+      "keywords": ["DRG", "Organoid", "Co-culture"],
+      "models": ["DRG-organoid co-culture"],
+      "techniques": ["Co-culture protocol"],
+      "results": ["Protocol for DRG-pancreas organoid co-culture"],
+      "notes": "Protocole pour co-culture DRG-organoide de pancréas"
+    },
+    {
+      "id": 137,
+      "authors": "Parpaite et al., 2021",
+      "doi": "10.1016/j.celrep.2021.109914",
+      "title": "Patch-seq of mouse DRG neurons reveals candidate genes for specific mechanosensory functions",
+      "keywords": ["Patch-seq", "DRG"],
+      "models": ["Mouse DRG"],
+      "techniques": ["Patch-seq"],
+      "results": ["DRG classification using patch-seq"],
+      "notes": "Démontre la possibilité de classifier les DRG via patch-seq"
+    },
+    {
+      "id": 138,
+      "authors": "Zuchero et al., 2014",
+      "doi": "10.1101/pdb.top073965",
+      "title": "Purification and Culture of Dorsal Root Ganglion Neurons",
+      "keywords": ["DRG", "Purification"],
+      "models": ["DRG"],
+      "techniques": ["Immunopanning"],
+      "results": [
+        "Blood cells and endothelial cells depleted using BSL-1",
+        "Glia depleted using CD9 antibody"
+      ],
+      "notes": "Methods for DRG neuron enrichment"
+    },
+    {
+      "id": 139,
+      "authors": "Zuchero et al., 2014",
+      "doi": "10.1101/pdb.prot074948",
+      "title": "Purification of Dorsal Root Ganglion Neurons from Rat by Immunopanning",
+      "keywords": ["DRG", "Immunopanning"],
+      "models": ["Rat DRG"],
+      "techniques": ["Immunopanning protocol"],
+      "results": ["Detailed protocol for DRG purification"],
+      "notes": "Protocole complet du résumé de l'article 138"
+    },
+    {
+      "id": 140,
+      "authors": "Han et al., 2016",
+      "doi": "10.18632/oncotarget.7776",
+      "title": "Pancreatic stellate cells contribute pancreatic cancer pain via activation of sHH signaling pathway",
+      "keywords": ["Pancreatic cancer pain", "Stellate cells"],
+      "models": ["DRG-cancer cell co-culture"],
+      "techniques": ["Indirect co-culture"],
+      "results": ["Indirect co-culture system for DRG and cancer cells"],
+      "notes": "Co-culture indirecte entre DRG et cellules cancer pancréas"
+    },
+    {
+      "id": 141,
+      "authors": "Kupari et al., 2023",
+      "doi": "10.1097/j.pain.0000000000002831",
+      "title": "Molecular taxonomy of nociceptors and pruriceptors",
+      "keywords": ["DRG classification", "scRNA-seq"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Review of DRG classification from scRNA-seq studies"],
+      "notes": "Revue qui reprend les résultats des différentes études en scRNA seq sur les DRG"
+    },
+    {
+      "id": 142,
+      "authors": "Perner et al., 2021",
+      "doi": "10.1016/j.xpro.2021.100333",
+      "title": "Protocol for dissection and culture of murine dorsal root ganglia neurons to study neuropeptide release",
+      "keywords": ["DRG", "Culture protocol"],
+      "models": ["Mouse DRG"],
+      "techniques": ["Culture protocol"],
+      "results": [
+        "40,000-60,000 DRG per adult mouse",
+        "15,000 neurons/cm² optimal density"
+      ],
+      "notes": "Protocole sans papaine pour DRG"
+    },
+    {
+      "id": 143,
+      "authors": "Agerskov & Nyeng, 2024",
+      "doi": "10.1242/dev.202254",
+      "title": "Innervation of the pancreas in development and disease",
+      "keywords": ["Pancreas innervation", "CGRP"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": [
+        "CGRP as sensory marker",
+        "NF200 doesn't label all TH+ sympathetic neurons"
+      ],
+      "notes": "CGRP est un marqueur sensoriel pour quantifier les fibres sensorielles"
+    },
+    {
+      "id": 144,
+      "authors": "Wangzhou et al., 2020",
+      "doi": "10.1097/j.pain.0000000000001866",
+      "title": "Pharmacological target-focused transcriptomic analysis of native versus cultured human and mouse dorsal root ganglia",
+      "keywords": ["DRG", "Transcriptomics"],
+      "models": ["Human and mouse DRG"],
+      "techniques": ["Transcriptomic analysis"],
+      "results": [
+        "Inflammatory phenotype 4 days after culture",
+        "Changes in TRP channel expression levels"
+      ],
+      "notes": "Phénotype inflammatoire après extraction et mise en culture des DRG"
+    },
+    {
+      "id": 145,
+      "authors": "Ariston Gabriel et al., 2020",
+      "doi": "10.1016/j.pan.2019.11.006",
+      "title": "Differences between KC and KPC pancreatic ductal adenocarcinoma mice models, in terms of their modeling biology and their clinical relevance",
+      "keywords": ["KPC", "KC", "Mouse models"],
+      "models": ["KPC mice", "KC mice"],
+      "techniques": ["Model comparison"],
+      "results": ["Comparison of KPC and KC models"],
+      "notes": "Différences modèles KPC et KC"
+    },
+    {
+      "id": 146,
+      "authors": "Hingorani et al., 2005",
+      "doi": "10.1016/j.ccr.2005.04.023",
+      "title": "Trp53R172H and KrasG12D cooperate to promote chromosomal instability and widely metastatic pancreatic ductal adenocarcinoma in mice",
+      "keywords": ["KPC model", "PDAC"],
+      "models": ["KPC mice"],
+      "techniques": ["Mouse model development"],
+      "results": ["First description of KPC mouse model"],
+      "notes": "Première publication sur le modèle murin KPC"
+    },
+    {
+      "id": 147,
+      "authors": "Li et al., 2024",
+      "doi": "10.3390/ijms25115813",
+      "title": "Roles of Thermosensitive Transient Receptor Channels TRPV1 and TRPM8 in Paclitaxel-Induced Peripheral Neuropathic Pain",
+      "keywords": ["TRPM8", "TRPV1", "Paclitaxel"],
+      "models": ["DRG"],
+      "techniques": ["Various"],
+      "results": [
+        "TRPM8 at 100 kDa in DRG",
+        "Paclitaxel downregulates TRPM8 in DRG"
+      ],
+      "notes": "A lire !"
+    },
+    {
+      "id": 148,
+      "authors": "Messina et al., 2023",
+      "doi": "10.1007/s10522-022-10000-3",
+      "title": "Age-dependent and modality-specific changes in the phenotypic markers Nav1.8, ASIC3, P2X3 and TRPM8 in male rat primary sensory neurons during healthy aging",
+      "keywords": ["TRPM8", "Aging"],
+      "models": ["Rat DRG"],
+      "techniques": ["Various"],
+      "results": ["TRPM8 at 127 kDa in DRG"],
+      "notes": "TRPM8 molecular weight study"
+    },
+    {
+      "id": 149,
+      "authors": "Wang et al., 2019",
+      "doi": "10.3389/fphys.2019.00285",
+      "title": "Transient Receptor Potential Melastatin 8 (TRPM8)-Based Mechanisms Underlie Both the Cold Temperature-Induced Inflammatory Reactions and the Synergistic Effect of Cigarette Smoke in Human Bronchial Epithelial (16HBE) Cells",
+      "keywords": ["TRPM8", "Inflammation"],
+      "models": ["16HBE cells"],
+      "techniques": ["Cell culture"],
+      "results": [
+        "Cold triggers Ca2+ increase via TRPM8",
+        "Leads to IL-6, IL-8 and TNFa production via ERK and NFkB"
+      ],
+      "notes": "TRPM8 role in inflammation"
+    },
+    {
+      "id": 150,
+      "authors": "Brandolini et al., 2019",
+      "doi": "10.1038/s41598-019-48231-z",
+      "title": "DF2726A, a new IL-8 signalling inhibitor, is able to counteract chemotherapy-induced neuropathic pain",
+      "keywords": ["IL-8", "Neuropathic pain"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": ["Oxaliplatin increases IL-8 signalling in dermis"],
+      "notes": "IL-8 signaling in chemotherapy-induced neuropathic pain"
+    },
+    {
+      "id": 151,
+      "authors": "Basu et al., 2023",
+      "doi": "10.3389/fnins.2023.1240372",
+      "title": "Phosphosulindac (OXT-328) prevents and reverses chemotherapy induced peripheral neuropathy in mice",
+      "keywords": ["CIPN", "IL-6"],
+      "models": ["Neuroblastoma cell line"],
+      "techniques": ["Various"],
+      "results": [
+        "Paclitaxel increases IL-6 levels in neuroblastoma cell line"
+      ],
+      "notes": "Study of IL-6 in chemotherapy-induced neuropathy"
+    },
+    {
+      "id": 152,
+      "authors": "Saito-Diaz et al., 2023",
+      "doi": "10.3389/fcell.2023.1101423",
+      "title": "Isolation of human pluripotent stem cell-derived sensory neuron subtypes by immunopanning",
+      "keywords": ["iPSC", "Immunopanning", "Trk"],
+      "models": ["Human iPSC"],
+      "techniques": ["Immunopanning"],
+      "results": [
+        "Protocol for human iPSC immunopanning",
+        "TRKB+/C+ mechanoreceptors overlap during development"
+      ],
+      "notes": "Protocole immunopanning human iPSC"
+    },
+    {
+      "id": 153,
+      "authors": "Minnone et al., 2017",
+      "doi": "10.3390/ijms18051028",
+      "title": "NGF and Its Receptors in the Regulation of Inflammatory Response",
+      "keywords": ["NGF", "Inflammation"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["TrkA is a NGF receptor"],
+      "notes": "Revue sur NGF et ses récepteurs"
+    },
+    {
+      "id": 154,
+      "authors": "Fang et al., 2005",
+      "doi": "10.1523/JNEUROSCI.0249-05.2005",
+      "title": "trkA Is Expressed in Nociceptive Neurons and Influences Electrophysiological Properties via Nav1.8 Expression in Rapidly Conducting Nociceptors",
+      "keywords": ["TrkA", "Nav1.8"],
+      "models": ["DRG"],
+      "techniques": ["Electrophysiology"],
+      "results": [
+        "Intense trkA staining confined to nociceptors",
+        "NGF regulates Nav1.8 expression via TrkA",
+        "Links TrkA expression to electrophysiological properties"
+      ],
+      "notes": "Links TrkA expression to electrophysio properties of neurons"
+    },
+    {
+      "id": 155,
+      "authors": "Averill et al., 1995",
+      "doi": "10.1111/j.1460-9568.1995.tb01143.x",
+      "title": "Immunocytochemical Localization of trkA Receptors in Chemically Identified Subgroups of Adult Rat Sensory Neurons",
+      "keywords": ["TrkA", "CGRP", "IB4"],
+      "models": ["Rat DRG"],
+      "techniques": ["Immunocytochemistry"],
+      "results": [
+        "92% of TrkA+ cells express CGRP",
+        "13% of TrkA+ cells express IB4"
+      ],
+      "notes": "Detailed TrkA expression pattern in DRG"
+    },
+    {
+      "id": 156,
+      "authors": "Conforti et al., 1997",
+      "doi": "10.1111/j.1469-7793.1997.293bk.x",
+      "title": "Selective inhibition of a slow-inactivating voltage-dependent K+ channel in rat PC12 cells by hypoxia",
+      "keywords": ["Kv channels", "PC12"],
+      "models": ["Undifferentiated PC12"],
+      "techniques": ["Single channel", "qPCR"],
+      "results": [
+        "Expression of Kv1.2, Kv1.3, Kv2.1, Kv3.1 & Kv3.2 in undifferentiated PC12",
+        "Kv1.2 and Kv3.2 less expressed than others"
+      ],
+      "notes": "Kv channel expression in PC12 cells"
+    },
+    {
+      "id": 157,
+      "authors": "Shrestha et al., 2021",
+      "doi": "10.1016/j.msec.2021.112176",
+      "title": "Engineering 2D approaches fibrous platform incorporating turmeric and polyaniline nanoparticles to predict the expression of βIII-Tubulin and TREK-1 through qRT-PCR to detect neuronal differentiation of PC12 cells",
+      "keywords": ["PC12", "TREK-1"],
+      "models": ["PC12"],
+      "techniques": ["PCR"],
+      "results": ["TREK-1 expression increases with PC12 differentiation"],
+      "notes": "TREK-1 expression in PC12 differentiation"
+    },
+    {
+      "id": 158,
+      "authors": "Numata et al., 2020",
+      "doi": "10.33594/000000277",
+      "title": "Elucidation of the Mechanisms for the Underlying Depolarization and Reversibility by Photoactive Molecule",
+      "keywords": ["Kv channels", "PC12"],
+      "models": ["PC12"],
+      "techniques": ["RT-PCR"],
+      "results": [
+        "Expression of multiple Kv channels in undifferentiated PC12"
+      ],
+      "notes": "Kv channel expression profile in PC12"
+    },
+    {
+      "id": 159,
+      "authors": "Clancy et al., 2007",
+      "doi": "10.1523/JNEUROSCI.1190-07.2007",
+      "title": "Coregulation of Natively Expressed Pertussis Toxin-Sensitive Muscarinic Receptors with G-Protein-Activated Potassium Channels",
+      "keywords": ["Kir channels", "PC12"],
+      "models": ["PC12 (NGF)"],
+      "techniques": ["RT-PCR", "WB"],
+      "results": [
+        "Expression of Kir3.1, Kir3.2c & Kir2.1 in PC12",
+        "Kir3.2c expression increases with differentiation"
+      ],
+      "notes": "Kir channel expression in PC12"
+    },
+    {
+      "id": 160,
+      "authors": "Luo et al., 2020",
+      "doi": "10.1111/nmo.13877",
+      "title": "Acute stress induces visceral hypersensitivity via glucocorticoidreceptor–mediated membrane insertion of TRPM8: Involvement of a non-receptor tyrosine kinase Pyk2",
+      "keywords": ["TRPM8", "PKA", "PKC", "PI3K/AKT", "Pain"],
+      "models": ["Various"],
+      "techniques": ["WB"],
+      "results": [
+        "PKA, PI3K/AKT, and PKC pathways trigger TRPM8 membrane insertion",
+        "WB with total and membrane TRPM8"
+      ],
+      "notes": "Interessant à lire pour visceral pain"
+    },
+    {
+      "id": 161,
+      "authors": "Cucu et al., 2014",
+      "doi": "10.1097/MPA.0000000000000106",
+      "title": "Characterization of Functional Transient Receptor Potential Melastatin 8 Channels in Human Pancreatic Ductal Adenocarcinoma Cells",
+      "keywords": ["TRPM8", "Localization", "Panc-1"],
+      "models": ["Panc-1"],
+      "techniques": ["Immunofluorescence"],
+      "results": [
+        "TRPM8 strongly expressed at plasma membrane in Panc-1",
+        "No ER marker colocalization",
+        "TRPM8 at 110 kDa in Panc-1"
+      ],
+      "notes": "TRPM8 localization and size in Panc-1"
+    },
+    {
+      "id": 162,
+      "authors": "Ulăreanu et al., 2017",
+      "doi": "10.1177/1010428317720940",
+      "title": "N-glycosylation of the transient receptor potential melastatin 8 channel is altered in pancreatic cancer cells",
+      "keywords": ["TRPM8", "Panc-1", "MIA-PaCa"],
+      "models": ["Panc-1", "MIA-PaCa-2"],
+      "techniques": ["WB", "Patch clamp"],
+      "results": [
+        "TRPM8 expressed and non-glycosylated in Panc-1 and MIA PaCa-2 (130 kDa)",
+        "IV curve comparison between HEK and Panc-1"
+      ],
+      "notes": "TRPM8 glycosylation status in cancer cells"
+    },
+    {
+      "id": 163,
+      "authors": "Koh et al., 2016",
+      "doi": "10.1186/s12868-016-0273-8",
+      "title": "The preventive effect of resiniferatoxin on the development of cold hypersensitivity induced by spinal nerve ligation: involvement of TRPM8",
+      "keywords": ["TRPM8"],
+      "models": ["DRG"],
+      "techniques": ["Various"],
+      "results": ["TRPM8 around 130 kDa in DRG"],
+      "notes": "TRPM8 size in DRG"
+    },
+    {
+      "id": 164,
+      "authors": "Fernández-Peña & Viana, 2013",
+      "doi": "10.2174/1876386301306010154",
+      "title": "Targeting TRPM8 for Pain Relief",
+      "keywords": ["TRPM8", "Pain"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Review of TRPM8 in pain"],
+      "notes": "Revue sur TRPM8 et douleur"
+    },
+    {
+      "id": 165,
+      "authors": "Tsuzuki et al., 2004",
+      "doi": "10.1523/JNEUROSCI.4658-03.2004",
+      "title": "Menthol-Induced Ca2 Release from Presynaptic Ca2 Stores Potentiates Sensory Synaptic Transmission",
+      "keywords": ["DRG", "Menthol current"],
+      "models": ["DRG"],
+      "techniques": ["Patch clamp"],
+      "results": ["Current amplitude increase at -60 mV"],
+      "notes": "Menthol effects on synaptic transmission"
+    },
+    {
+      "id": 166,
+      "authors": "Premkumar et al., 2005",
+      "doi": "10.1523/JNEUROSCI.3006-05.2005",
+      "title": "Downregulation of Transient Receptor Potential Melastatin 8 by Protein Kinase C-Mediated Dephosphorylation",
+      "keywords": ["TRPM8", "DRG", "PKC"],
+      "models": ["DRG"],
+      "techniques": ["Patch clamp"],
+      "results": [
+        "PKC activation downregulates TRPM8 via dephosphorylation",
+        "PKC activation increases TRPV1 current"
+      ],
+      "notes": "PKC effects on TRPM8 and TRPV1"
+    },
+    {
+      "id": 167,
+      "authors": "Gaudioso et al., 2011",
+      "doi": "10.1016/j.pain.2011.11.014",
+      "title": "Menthol pain relief through cumulative inactivation of voltage-gated sodium channels",
+      "keywords": ["Menthol", "Nav", "Analgesia"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Menthol blocks both TTX-R and TTX-S Na+ currents",
+        "Direct effect on Nav channels"
+      ],
+      "notes": "Menthol as analgesic"
+    },
+    {
+      "id": 168,
+      "authors": "O'Dowd et al., 2023",
+      "doi": "10.1016/j.ccr.2023.215439",
+      "title": "Oxaliplatin and its derivatives – An overview",
+      "keywords": ["Oxaliplatin", "Review"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": [
+        "Oxaliplatin must be dissolved in glucose solution",
+        "60-95% of patients experience peripheral neuropathy"
+      ],
+      "notes": "Explique pourquoi on administre oxal dans solution de glucose et non dans saline"
+    },
+    {
+      "id": 169,
+      "authors": "Buß et al., 2012",
+      "doi": "10.1007/s00775-012-0889-9",
+      "title": "Effect of reactivity on cellular accumulation and cytotoxicity of oxaliplatin analogues",
+      "keywords": ["Oxaliplatin"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Initial passive diffusion of oxaliplatin",
+        "Subsequent transporter-mediated uptake"
+      ],
+      "notes": "Oxaliplatin uptake mechanisms"
+    },
+    {
+      "id": 170,
+      "authors": "Gallego-Jara et al., 2020",
+      "doi": "10.3390/molecules25245986",
+      "title": "A Compressive Review about Taxol®: History and Future Challenges",
+      "keywords": ["Paclitaxel"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Review of paclitaxel (Taxol)"],
+      "notes": "Revue sur le paclitaxel"
+    },
+    {
+      "id": 171,
+      "authors": "Klein et al., 2021",
+      "doi": "10.1111/jns.12440",
+      "title": "Impact of drug formulations on kinetics and toxicity in a preclinical model of paclitaxel-induced neuropathy",
+      "keywords": ["Paclitaxel"],
+      "models": ["Mice"],
+      "techniques": ["Various"],
+      "results": [
+        "Paclitaxel accumulation in DRG at 30min and 3h post-injection"
+      ],
+      "notes": "Paclitaxel accumulation in DRG"
+    },
+    {
+      "id": 172,
+      "authors": "Cersosimo et al., 2004",
+      "doi": "10.1345/aph.1E319",
+      "title": "Oxaliplatin-Associated Neuropathy: A Review",
+      "keywords": ["CIPN", "Oxaliplatin", "Review"],
+      "models": ["Human patients"],
+      "techniques": ["Review"],
+      "results": [
+        "Acute form in >90% of patients",
+        "Chronic form with cumulative doses ≥540 mg/m2"
+      ],
+      "notes": "Review of oxaliplatin neuropathy"
+    },
+    {
+      "id": 173,
+      "authors": "Various",
+      "doi": "10.1038/sj.bjc.6601012",
+      "title": "Paclitaxel induces nucleolar enlargement in dorsal root ganglion neurons in vivo reducing oxaliplatin toxicity",
+      "keywords": ["Neurotoxicity", "Oxaliplatin", "Paclitaxel"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Single oxaliplatin injection decreases sciatic nerve conduction",
+        "Single paclitaxel injection has no effect on conduction"
+      ],
+      "notes": "Comparison of oxaliplatin and paclitaxel effects"
+    },
+    {
+      "id": 174,
+      "authors": "Scuteri et al., 2006",
+      "doi": null,
+      "title": "Paclitaxel toxicity in post-mitotic dorsal root ganglion (DRG) cells",
+      "keywords": ["Paclitaxel", "DRG"],
+      "models": ["Cultured DRG"],
+      "techniques": ["Cell culture"],
+      "results": ["Paclitaxel induces neuronal death by necrosis at 48h"],
+      "notes": "Paclitaxel effects on cultured DRG"
+    },
+    {
+      "id": 175,
+      "authors": "Takaku et al., 2022"
+    },
+    {
+      "id": 176,
+      "authors": "McKemy et al. 2002",
+      "doi": "10.1038/nature719",
+      "title": "Identification of a cold receptor reveals a general role for TRP channels in thermosensation",
+      "keywords": ["TRPM8", "Thermosensation"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": ["TRPM8 activation temperature between 8 and 28°C"],
+      "notes": "Early article about TRPM8 (Patapoutian team)"
+    },
+    {
+      "id": 177,
+      "authors": "Kwan et al. 2006",
+      "doi": "10.1016/j.neuron.2006.03.042",
+      "title": "TRPA1 contributes to cold, mechanical, and chemical nociception but is not essential for hair-cell transduction",
+      "keywords": ["TRPA1", "Nociception"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "TRPA1 contributes to the transduction of mechanical, cold, and chemical stimuli in nociceptor sensory neurons"
+      ],
+      "notes": "Role of TRPA1 in nociception"
+    },
+    {
+      "id": 178,
+      "authors": "Fernández-Carvajal et al. 2022",
+      "doi": "10.3389/fnmol.2022.930964",
+      "title": "TRPV1 in chronic pruritus and pain: Soft modulation as a therapeutic strategy",
+      "keywords": ["TRPV1", "Pain", "Pruritus"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Review on TRPV1"],
+      "notes": "Review on TRPV1"
+    },
+    {
+      "id": 179,
+      "authors": "Vetter et al. 2013",
+      "doi": "10.1523/JNEUROSCI.1473-13.2013",
+      "title": "Amplified Cold Transduction in Native Nociceptors by M-Channel Inhibition",
+      "keywords": [
+        "Menthol",
+        "TRPM8",
+        "Kv7.2/3",
+        "M current",
+        "Cell excitability"
+      ],
+      "models": ["HEK cells"],
+      "techniques": ["Patch clamp"],
+      "results": [
+        "Menthol decreases current at positive voltages in HEK cells transfected with Kv7.2/3 and TRPM8",
+        "TRPM8 inhibits M current through Kv7.2/3, increasing cold sensitivity and cell excitability"
+      ],
+      "notes": "M-current = voltage-dependent potassium current (activation threshold ≈-50, -40 mV, below excitability threshold), IM increases with depolarization until ≈+50, +80 mV, current present in DRG and mainly passing through Kv7.2/3 (heteromer). Regulates resting potential, modulates excitability threshold. Role in nociception: participates in pain threshold establishment. Inhibition of this current leads to hyperexcitability and increased sensitivity."
+    },
+    {
+      "id": 180,
+      "authors": "Madrid et al. 2009",
+      "doi": "10.1523/JNEUROSCI.4778-08.2009",
+      "title": "Variable Threshold of Trigeminal Cold-Thermosensitive Neurons Is Determined by a Balance between TRPM8 and Kv1 Potassium Channels",
+      "keywords": ["TRPM8", "Kv1", "Cold sensitivity"],
+      "models": [
+        "TG from neonatal (P1-P6) and adult OF1 mice, or adult TRPA1-/- mice"
+      ],
+      "techniques": ["Various"],
+      "results": [
+        "Fibers responding to non-painful and painful cold are different",
+        "These threshold differences depend on TRPM8 and Kv1 expression",
+        "Higher M8 density at membrane = lower cold detection threshold in TG (detects lower temperatures, higher cold sensitivity)",
+        "More Kv1 = less cold sensitivity",
+        "4-AP (K+ channel inhibitor, including Kv1.1 and 1.2) → increases cold sensitivity count in TRPA-/- mice"
+      ],
+      "notes": "4-AP inhibits several Kv channels, including: Kv1.4, Kv3.4, Kv4.1, Kv4.2, Kv4.3 (A-type Kv channels) and Kv1.1, Kv1.2, Kv1.6 (Delayed rectifier Kv channels)"
+    },
+    {
+      "id": 181,
+      "authors": "Karashima et al. 2007",
+      "doi": "10.1523/JNEUROSCI.2221-07.2007",
+      "title": "Bimodal Action of Menthol on the Transient Receptor Potential Channel TRPA1",
+      "keywords": ["TRPA1", "Menthol"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Menthol (1-100µM) activates TRPA1",
+        "Menthol (1mM) inhibits TRPA1"
+      ],
+      "notes": "Bimodal effect of menthol on TRPA1"
+    },
+    {
+      "id": 182,
+      "authors": "Lee et al. 2023",
+      "doi": "10.1016/j.neulet.2023.137427",
+      "title": "Menthol excites dural afferent neurons by inhibiting leak K+ conductance in rats",
+      "keywords": [
+        "Cold inhibits",
+        "Potassium current",
+        "Background (ie leak) K+ channels"
+      ],
+      "models": ["Dural afferent neurons (=trigeminovascular neurons)"],
+      "techniques": ["Various"],
+      "results": [
+        "Menthol inhibits leak K+ channels, possibly acid-sensitive two-pore domain K+ channels, increasing nociceptive sensory neuron excitability",
+        "This effect would be independent of M8 (menthol current is not reversed by M8 antagonist)"
+      ],
+      "notes": "Only abstract & section snippets, no pdf available for now. Generally, some channels are activated by cold but not by menthol; cold doesn't only activate M8, it also inhibits TREK-1 and TRAAK, K+ leak channels"
+    },
+    {
+      "id": 183,
+      "authors": "Peier et al. 2002",
+      "doi": "10.1016/S0092-8674(02)00652-9",
+      "title": "A TRP Channel that Senses Cold Stimuli and Menthol",
+      "keywords": ["TRPM8"],
+      "models": ["DRG (mice)", "CHO cells"],
+      "techniques": ["Various"],
+      "results": [
+        "Mouse TRPM8 sequence predicts 1104 amino acid protein",
+        "Mouse TRPM8 is 93% identical to human gene",
+        "TRPM8 mainly expressed in DRG, in 5-10% of DRG neurons (adult mouse)",
+        "Expressed in TrkA-dependent neurons, distinct from IB4+, CGRP+ and VR1 (ie TRPV1) neurons"
+      ],
+      "notes": "EARLY ARTICLE ABOUT M8 (Patapoutian team). First time TRPM8 is named, first time it is cloned. Shows classic menthol response in CHO cells"
+    },
+    {
+      "id": 184,
+      "authors": "Reid et al. 2001",
+      "doi": "10.1016/S0304-3940(00)01694-3",
+      "title": "Cold transduction by inhibition of a background potassium conductance in rat primary sensory neurones",
+      "keywords": [
+        "Cold inhibits",
+        "Potassium current",
+        "Background (ie leak) K+ channels"
+      ],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Cooling increased input resistance of all neurons, indicating inhibition of outward current active at resting potential rather than activation of inward current",
+        "Primary cause of depolarization and increased excitability induced by cooling appears to be inhibition of background K+ current active at resting potential"
+      ],
+      "notes": "Generally, some channels are activated by cold but not by menthol; cold doesn't only activate M8, it inhibits TREK-1 and TRAAK, K+ leak channels"
+    },
+    {
+      "id": 185,
+      "authors": "Viana et al. 2002",
+      "doi": "10.1038/nn809",
+      "title": "Specificity of cold thermotransduction is determined by differential ionic channel expression",
+      "keywords": [
+        "Cold inhibits",
+        "Potassium current",
+        "Background (ie leak) K+ channels"
+      ],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Cooling closes background K+ channel, causing depolarization and firing",
+        "In cold-insensitive neurons, firing is prevented by slow, transient, 4-AP-sensitive K+ current (IKD) that acts as excitability brake",
+        "Pharmacological blockade of IKD induced thermosensitivity in cold-insensitive neurons, may explain cold allodynia in neuropathic pain"
+      ],
+      "notes": "Generally, some channels are activated by cold but not by menthol; cold doesn't only activate M8, it inhibits TREK-1 and TRAAK, K+ leak channels"
+    },
+    {
+      "id": 186,
+      "authors": "Linley et al. 2008",
+      "doi": "10.1523/JNEUROSCI.2297-08.2008",
+      "title": "Inhibition of M current in sensory neurons by exogenous proteases: a signaling pathway mediating inflammatory nociception",
+      "keywords": ["M current", "Inflammation"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "PLC- and Ca(2+)/PIP(2)-mediated inhibition of M current in sensory neurons may represent one of general mechanisms underlying pain produced by inflammatory mediators"
+      ],
+      "notes": "Interesting to link with TRPM8 modulations (PIP2) and ref 179 (M-current inhibition via Kv7.2/3 by menthol)"
+    },
+    {
+      "id": 187,
+      "authors": "Stopczynski et al. 2014",
+      "doi": "10.1158/0008-5472.CAN-13-2050",
+      "title": "Neuroplastic Changes Occur Early in the Development of Pancreatic Ductal Adenocarcinoma",
+      "keywords": ["PDAC", "DRG"],
+      "models": ["KPC mice", "PDAC cell lines (MiaPaCa2, Panc1, Kpc1, Kpc2)"],
+      "techniques": ["qRT-PCR"],
+      "results": ["PDAC (KPC mice) → increased TRPA1 and TRPV1 expression"],
+      "notes": "Expression changes in TRP channels in PDAC"
+    },
+    {
+      "id": 188,
+      "authors": "Pozzi et al. 2024",
+      "doi": "10.3390/ijms25126552",
+      "title": "Ion Channel and Transporter Involvement in Chemotherapy-Induced Peripheral Neurotoxicity",
+      "keywords": ["Kv", "Nav", "Review"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Review on role of potassium and sodium channels in CIPN"],
+      "notes": "Review on ion channels in CIPN"
+    },
+    {
+      "id": 189,
+      "authors": "O'Leary et al. 2022",
+      "doi": "10.1097/MPA.0000000000002086",
+      "title": "Pharmacological Ascorbate Enhances Chemotherapies in Pancreatic Ductal Adenocarcinoma",
+      "keywords": ["FOLFIRINOX", "In mice"],
+      "models": ["Mice"],
+      "techniques": ["Various"],
+      "results": [
+        "67 mg/kg leucovorin, 33 mg/kg 5-fluorouracil, 33 mg/kg irinotecan, 3 mg/kg oxaliplatin or saline, intraperitoneal",
+        "Treated for 21 days and received 6 doses of FFX (twice/week)"
+      ],
+      "notes": "Protocol details for FOLFIRINOX in mice"
+    },
+    {
+      "id": 190,
+      "authors": "Qiu et al. 2013",
+      "doi": "10.1007/978-1-62703-287-2_11",
+      "title": "Development of Orthotopic Pancreatic Tumor Mouse Models",
+      "keywords": ["Protocol", "Xenograft pancreas", "Cancer model"],
+      "models": ["Various"],
+      "techniques": ["Protocol"],
+      "results": ["Protocol for pancreatic xenograft"],
+      "notes": "Given by Patricia. Contains photos"
+    },
+    {
+      "id": 191,
+      "authors": "Bean 2007",
+      "doi": "10.1038/nrn2148",
+      "title": "The action potential in mammalian central neurons",
+      "keywords": ["Action potentials"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": [
+        "Contribution of particular currents to action potential can be dissected using action potential clamp technique",
+        "Shows where to measure different parameters on recording"
+      ],
+      "notes": "Shows where to measure different parameters on recording. TO READ IN DETAIL"
+    },
+    {
+      "id": 192,
+      "authors": "Zhou et al., 2016",
+      "doi": "10.1016/j.neuroscience.2016.07.024",
+      "title": "Suppression of KV7/KCNQ potassium channel enhances neuronal differentiation of PC12 cells",
+      "keywords": ["Kv7", "PC12"],
+      "models": ["PC12"],
+      "techniques": ["Various"],
+      "results": [
+        "Kv7.2 and 7.3 expressed in PC12 (more expressed in undifferentiated than differentiated)"
+      ],
+      "notes": "Kv7 expression in PC12"
+    },
+    {
+      "id": 193,
+      "authors": "Aloi et al., 2023",
+      "doi": "10.1097/j.pain.0000000000002906",
+      "title": "TRPM3 as a novel target to alleviate acute oxaliplatin-induced peripheral neuropathic pain",
+      "keywords": ["TRPM3", "CIPN"],
+      "models": ["Various"],
+      "techniques": ["Neuron sorting in BSA gradient"],
+      "results": [
+        "In vitro calcium microfluorimetry and whole-cell patch-clamp experiments showed that TRPM3 is functionally upregulated in both heterologous and homologous expression systems after acute (24 hours) oxaliplatin treatment, whereas direct application of oxaliplatin was without effect"
+      ],
+      "notes": "Article with neuron sorting in BSA gradient"
+    },
+    {
+      "id": 194,
+      "authors": "Ghovanloo et al., 2023",
+      "doi": "10.1016/j.crmeth.2022.100385",
+      "title": "High-throughput combined voltage-clamp/current-clamp analysis of freshly isolated neurons",
+      "keywords": ["DRG", "Automatic patch"],
+      "models": ["DRG"],
+      "techniques": ["Automatic patch"],
+      "results": ["About 10% success on DRG in automatic patch"],
+      "notes": "Success rate for automatic patch on DRG"
+    },
+    {
+      "id": 195,
+      "authors": "Ma et al., 2005",
+      "doi": "10.1016/j.pain.2004.10.001",
+      "title": "Enhanced excitability of dissociated primary sensory neurons after chronic compression of the dorsal root ganglion in the rat",
+      "keywords": [
+        "Dissociated DRG vs intact DRG",
+        "Chronic compression",
+        "Neuron excitability"
+      ],
+      "models": ["DRG from rats"],
+      "techniques": ["Sharp electrode"],
+      "results": [
+        "DRG dissociation → Increase Rin & more positive RMP (compared to intact DRG) in small but not medium or big neurons"
+      ],
+      "notes": "Comparison of neuronal excitability after DRG dissociation VS intact DRG. + Effect of chronic compression on excitability"
+    },
+    {
+      "id": 196,
+      "authors": "Gold et al., 2004",
+      "doi": "10.1152/jn.00866.2003.",
+      "title": "Cutaneous and Colonic Rat DRG Neurons Differ With Respect to Both Baseline and PGE2-Induced Changes in Passive and Active Electrophysiological Properties",
+      "keywords": [
+        "DRG",
+        "Action potentials",
+        "Neuron excitability",
+        "Inflammation"
+      ],
+      "models": ["DRG from rats"],
+      "techniques": ["Whole cell"],
+      "results": [
+        "Average Cm for cutaneous DRG = 33.2 +/- 1.1 pF (range 20.34-42 pF, n=33)",
+        "PGE2 (inflammatory mediator prostaglandin E2) → Increase excitability of cutaneous DRG (decreased rheobase + increase in AP frequency in response to suprathreshold stimulation)"
+      ],
+      "notes": "Explains well AP analysis. Membrane capacitance measured in whole cell configuration is accurate measure of cell body size, used to distinguish small from large neurons with cut-off of 42 pF"
+    },
+    {
+      "id": 197,
+      "authors": "Hayar et al., 2008",
+      "doi": "10.1016/j.jneumeth.2008.05.023",
+      "title": "An improved method for patch clamp recording and calcium imaging of neurons in the intact dorsal root ganglion in rats",
+      "keywords": ["Intact DRG"],
+      "models": ["Intact DrG from rats"],
+      "techniques": ["Whole cell"],
+      "results": [
+        "DRG neurons have resting potential of −54 ± 2 mV and input resistance of 345 ± 40 M (n=18)"
+      ],
+      "notes": "Resting membrane potential and input resistance in intact DRG"
+    },
+    {
+      "id": 198,
+      "authors": "Gasior et al., 2022",
+      "doi": "10.1007/s10827-021-00799-0",
+      "title": "Fast-Slow Analysis as a Technique for Understanding the Neuronal Response to Current Ramps",
+      "keywords": ["Patch protocols", "Ramp for PA"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Although this is informative, jump in applied current is artificial",
+        "More physiological input is where applied current is ramped up, reflecting chemosensory input",
+        "Neurons can respond differently to the two protocols"
+      ],
+      "notes": "About way to analyze ramp protocols for AP studies and about why current ramps protocols are more physiological than current steps"
+    },
+    {
+      "id": 199,
+      "authors": "Kodirov et al., 2023",
+      "doi": "10.1007/s12551-023-01055-8",
+      "title": "Whole‑cell patch‑clamp recording and parameters",
+      "keywords": ["Whole‑cell patch‑clamp recording"],
+      "models": ["Various"],
+      "techniques": ["Review"],
+      "results": ["Guidelines for patch-clamp recording"],
+      "notes": "Useful for interns (M2 level), good explanations except for pressure positive or negative that are inversed on our system"
+    },
+    {
+      "id": 200,
+      "authors": "Du et al., 2014",
+      "doi": "10.1016/j.pain.2014.08.025",
+      "title": "Control of somatic membrane potential in nociceptive neurons and its implications for peripheral nociceptive transmission",
+      "keywords": ["DRG", "Membrane potential"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "RMP DRG ≈ -60 mV, whether in WC, perforated patch or sharp electrode"
+      ],
+      "notes": "Focus on identification of channels responsible for maintaining resting potential in DRG"
+    },
+    {
+      "id": 201,
+      "authors": "Reid et al., 2002",
+      "doi": "10.1113/jphysiol.2002.024331.",
+      "title": "A cold- and menthol-activated current in rat dorsal root ganglion neurones: properties and role in cold transduction",
+      "keywords": ["DRG", "Action potential"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Shows figures of AP in DRG cold-sensitive neurons vs not cold-sensitive",
+        "Other information in discussion about current signature in cold-sensitive or not neurons"
+      ],
+      "notes": "AP analysis in cold-sensitive vs non-sensitive neurons"
+    },
+    {
+      "id": 202,
+      "authors": "Villalba-Riquelme et al., 2022",
+      "doi": "10.1111/bph.15809",
+      "title": "Paclitaxel in vitro reversibly sensitizes the excitability of IB4(−) and IB4(+) sensory neurons from male and female rats",
+      "keywords": ["Paclitaxel", "IB4"],
+      "models": ["Various"],
+      "techniques": ["Various"],
+      "results": [
+        "Paclitaxel strongly and reversibly stimulated spontaneous activity and augmented action potential tonic firing in IB4(−) and IB4(+) neurons in both sexes, peaking at 48h post‐treatment and virtually disappearing at 96h",
+        "Paclitaxel decreased current rheobase for action potential firing by reducing and accelerating after‐hyperpolarization phase",
+        "Molecularly, paclitaxel modulated Na+ and K+ ion currents",
+        "Particularly, drug significantly augmented function of Nav1.8, TRPV1 and TRPM8 channels",
+        "Furthermore, paclitaxel increased Nav1.8 and TRPV1 expression at 48h post‐treatment",
+        "Notably, female DRG neurons appear more sensitive to paclitaxel sensitization than male counterparts"
+      ],
+      "notes": "Sex differences in paclitaxel effects"
+    },
+    {
+      "id": 203,
+      "authors": "Shiers et al., 2020",
+      "doi": "10.1097/j.pain.0000000000001973",
+      "title": "Quantitative differences in neuronal subpopulations between mouse and human dorsal root ganglia demonstrated with RNAscope in situ hybridization",
+      "keywords": ["DRG", "Mouse vs human"],
+      "models": ["Mouse and human DRG"],
+      "techniques": ["RNAscope in situ hybridization"],
+      "results": ["Comparison of mouse vs human DRG"],
+      "notes": "Comparison between mouse and human DRG"
+    },
+    {
+      "id": 204,
+      "authors": "Huang et al., 2018",
+      "doi": "10.1038/s41598-018-20221-7",
+      "title": "Atypical changes in DRG neuron excitability and complex pain phenotype associated with a Nav1.7 mutation that massively hyperpolarizes activation",
+      "keywords": ["Pain", "Nav1.7"],
+      "models": ["DRG from Sprague-Dawley rats"],
+      "techniques": ["Various"],
+      "results": [
+        "For small diameter DRG",
+        "RMP: -55.1 ± 1 mV",
+        "Rin: 513 ± 47 MOhm",
+        "Rheobase: 106 ± 2.2 pA",
+        "Half-width: 4.97 ± 0.42",
+        "Afterhyperpol potential: -64.5 ± 1.3"
+      ],
+      "notes": "Electrophysiological parameters in small DRG neurons"
+    }
+  ]
+}
