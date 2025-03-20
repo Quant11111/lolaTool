@@ -2671,6 +2671,338 @@
         "Afterhyperpol potential: -64.5 ± 1.3"
       ],
       "notes": "Electrophysiological parameters in small DRG neurons"
+    },
+    {
+      "id": 81,
+      "authors": "Piccolo et al., 2014",
+      "doi": "10.2146/ajhp130126",
+      "title": "Prevention and treatment of chemotherapy-induced peripheral neuropathy",
+      "keywords": [
+        "Chemotherapy",
+        "Peripheral neuropathy",
+        "CIPN",
+        "Prevention",
+        "Treatment"
+      ],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Am J Health Syst Pharm."
+    },
+    {
+      "id": 82,
+      "authors": "Kanbara et al., 2014",
+      "doi": "10.1016/j.neulet.2014.08.005",
+      "title": "Morphine and oxycodone, but no fentanyl, exhibit antinociceptive effects mediated by G-protein inwardly rectifying potassium (GIRK) channels in an oxaliplatin-induced neuropathy rat model",
+      "keywords": [
+        "Oxaliplatin",
+        "Neuropathy",
+        "Morphine",
+        "Oxycodone",
+        "Fentanyl",
+        "GIRK channels"
+      ],
+      "models": ["Oxaliplatin-induced neuropathy rat model"],
+      "techniques": [],
+      "results": [
+        "Morphine and oxycodone exhibit antinociceptive effects mediated by GIRK channels",
+        "Fentanyl does not exhibit these effects"
+      ],
+      "notes": "Neurosci Lett."
+    },
+    {
+      "id": 83,
+      "authors": "Cascinu et al., 2002",
+      "doi": "10.1200/JCO.2002.07.061",
+      "title": "Neuroprotective effect of reduced glutathione on oxaliplatin-based chemotherapy in advanced colorectal cancer: a randomized, double-blind, placebo-controlled trial",
+      "keywords": [
+        "Oxaliplatin",
+        "Glutathione",
+        "GSH",
+        "Colorectal cancer",
+        "Neuroprotection"
+      ],
+      "models": ["Advanced colorectal cancer patients"],
+      "techniques": [
+        "Randomized controlled trial",
+        "Double-blind",
+        "Placebo-controlled"
+      ],
+      "results": [
+        "Reduced glutathione has neuroprotective effect on oxaliplatin-based chemotherapy"
+      ],
+      "notes": "J Clin Oncol."
+    },
+    {
+      "id": 84,
+      "authors": "Sapio et al., 2020",
+      "doi": "10.3389/fnins.2020.615362",
+      "title": "Comparative Analysis of Dorsal Root, Nodose and Sympathetic Ganglia for the Development of New Analgesics",
+      "keywords": [
+        "DRG",
+        "TRP",
+        "Nodose ganglia",
+        "Sympathetic ganglia",
+        "Analgesics"
+      ],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Front Neurosci. Comparaison des profils d'expression de différentes prot (notamment TRP) dans DRG, TG, ganglion sympathique..."
+    },
+    {
+      "id": 85,
+      "authors": "Frankenhaeuser et Hodgkin, 1957",
+      "doi": "10.1113/jphysiol.1957.sp005808",
+      "title": "The Action of Calcium in the Electrical Properties of Squid Axons",
+      "keywords": [
+        "Calcium",
+        "Squid axons",
+        "Electrical properties",
+        "Ion channels"
+      ],
+      "models": ["Squid axons"],
+      "techniques": [],
+      "results": [],
+      "notes": "J. Physiol."
+    },
+    {
+      "id": 86,
+      "authors": "Adelsberger et al, 2000",
+      "doi": "10.1016/s0014-2999(00)00667-1",
+      "title": "The chemotherapeutic oxaliplatin alters voltage-gated Na(+) channel kinetics on rat sensory neurons",
+      "keywords": [
+        "Oxaliplatin",
+        "Hyperexcitability",
+        "Nav",
+        "Sodium channels"
+      ],
+      "models": [
+        "Rat sensory nerve preparations",
+        "DRG",
+        "Hippocampal neurons"
+      ],
+      "techniques": ["Patch clamp", "Electrophysiology"],
+      "results": [
+        "Oxal 250µM (acute in bath) increases size and duration of action potentials in nerves due to increased Na+ current",
+        "Slowdown of the inactivation kinetics of Na+ channels in DRG",
+        "Hyperexcitability observed under oxaliplatin is due to Na+ channels more than K+ channels"
+      ],
+      "notes": "Eur J Pharmacol. PLEIN D'ELECTRPHY, A LIRE EN DETAIL !!"
+    },
+    {
+      "id": 87,
+      "authors": "Attal et al, 2009",
+      "doi": "10.1016/j.pain.2009.03.024",
+      "title": "Thermal hyperalgesia as a marker of oxaliplatin neurotoxicity: A prospective quantified sensory assessment study",
+      "keywords": [
+        "Oxaliplatin",
+        "Thermal hyperalgesia",
+        "Neurotoxicity",
+        "Sensory assessment"
+      ],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Pain"
+    },
+    {
+      "id": 88,
+      "authors": "Bautista et al, 2007",
+      "doi": "10.1038/nature05910",
+      "title": "The menthol receptor TRPM8 is the principal detector of environmental cold",
+      "keywords": ["TRPM8", "Menthol", "Cold detection", "Environmental cold"],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Nature"
+    },
+    {
+      "id": 89,
+      "authors": "Ehrsson et al, 2002",
+      "doi": "10.1385/MO:19:4:261",
+      "title": "Pharmacokinetics of oxaliplatin in humans",
+      "keywords": ["Oxaliplatin", "Pharmacokinetics", "Colorectal cancer"],
+      "models": [
+        "10 patients with colorectal cancer treated by oxaliplatin (2h infusion, 85 mg/m2)"
+      ],
+      "techniques": [],
+      "results": [
+        "During infusion, a steady state of 1.44 µg/mL of intact oxaliplatin (free fraction) is found in patient blood",
+        "Short degradation time: elimination half life = 14 min"
+      ],
+      "notes": "Med Oncol. Taux dans le sang des patients etc. 1.44 µg/mL correspond à 3.6 µM. \"Only a minor fraction of intact oxaliplatin will be available to react with DNA\". Donne le nom de certaines molécules avec lesquelles l'oxal interagit (albumine…)"
+    },
+    {
+      "id": 90,
+      "authors": "Kagiava et al, 2008",
+      "doi": "10.1016/j.neuro.2008.09.005",
+      "title": "The effects of oxaliplatin, an anticancer drug, on potassium channels of the peripheral myelinated nerve fibres of the adult rat",
+      "keywords": [
+        "Oxaliplatin",
+        "Potassium channels",
+        "Peripheral nerve",
+        "Myelinated nerve fibres"
+      ],
+      "models": ["Adult rat"],
+      "techniques": [],
+      "results": [],
+      "notes": "Neurotoxicology"
+    },
+    {
+      "id": 91,
+      "authors": "Krishnan et al, 2006",
+      "doi": "10.1158/1078-0432.CCR-06-0694",
+      "title": "Oxaliplatin and axonal Na+ channel function in vivo",
+      "keywords": ["Oxaliplatin", "Na+ channels", "Axonal function"],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Clin Cancer Res."
+    },
+    {
+      "id": 92,
+      "authors": "Zimmermann et al, 2007",
+      "doi": "10.1158/1078-0432.CCR-06-0694",
+      "title": "Sensory neuron sodium channel Nav1.8 is essential for pain at low temperatures",
+      "keywords": [
+        "Nav1.8",
+        "Sodium channel",
+        "Low temperature",
+        "Pain",
+        "Sensory neuron"
+      ],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Nature"
+    },
+    {
+      "id": 93,
+      "authors": "Lichvárová et al, 2015",
+      "doi": "10.4149/gpb_2014044",
+      "title": "CaV1.2 and CaV1.3 L-type calcium channels regulate the resting membrane potential but not the expression of calcium transporters in differentiated PC12 cells",
+      "keywords": [
+        "PC12",
+        "Resting potential",
+        "CaV1.2",
+        "CaV1.3",
+        "L-type calcium channels"
+      ],
+      "models": ["PC12"],
+      "techniques": ["Whole-cell patch clamp (perforated)"],
+      "results": [
+        "Potentiel de repos des PC-12 différenciées au NGF ≈ -40 mV (concentration NGF = 50 ng/mL)",
+        "Classiquement, il est plus proche du potentiel de repos des neurones parasympathiques"
+      ],
+      "notes": "Gen. Physiol. Biophys."
+    },
+    {
+      "id": 94,
+      "authors": "Saito-Diaz et al, 2021",
+      "doi": "10.1016/j.stemcr.2021.01.001",
+      "title": "Derivation of Peripheral Nociceptive, Mechanoreceptive, and Proprioceptive Sensory Neurons from the same Culture of Human Pluripotent Stem Cells",
+      "keywords": [
+        "hESC",
+        "Sensory neurons",
+        "Nociceptors",
+        "Stem cells",
+        "Differentiation"
+      ],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Stem Cell Reports. Utile pour protocoles differenciation hESC (notamment table S1)"
+    },
+    {
+      "id": 95,
+      "authors": "Ranjan et al, 2019",
+      "doi": "10.1016/j.stemcr.2021.01.001",
+      "title": "A Kinetic Map of the Homomeric Voltage-Gated Potassium Channel (Kv) Family",
+      "keywords": ["Kv", "Channel kinetics", "Voltage-gated potassium channel"],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Frontiers in Cellular Neuroscience. Illustration très pedagogues, description des protocoles pour étudier la cinétique d'un canal (activation, desactivation, inactivation…). C'est un article que j'ai utilisé pour préparer ma fiche d'electrophysiologie"
+    },
+    {
+      "id": 96,
+      "authors": "Dhaka et al, 2008",
+      "doi": "10.3389/fncel.2019.00358",
+      "title": "Visualizing Cold Spots: TRPM8-Expressing Sensory Neurons and Their Projection",
+      "keywords": ["TRPM8", "Cold spots", "Sensory neurons", "Projection"],
+      "models": [],
+      "techniques": [],
+      "results": [],
+      "notes": "Frontiers in Cellular Neuroscience. Piste de George pour localisation de TRPM8 dans DRG (whatsapp 23/01/2024)"
+    },
+    {
+      "id": 97,
+      "authors": "Munns et al, 2007",
+      "doi": "10.1016/j.ceca.2006.07.008",
+      "title": "Many cold sensitive peripheral neurons of the mouse do not express TRPM8 or TRPA1",
+      "keywords": [
+        "TRPM8",
+        "TRPA1",
+        "Cold sensitive",
+        "Peripheral neurons",
+        "Mouse"
+      ],
+      "models": ["Mouse"],
+      "techniques": [],
+      "results": [],
+      "notes": "Cell Calcium. Piste de George pour localisation de TRPM8 dans DRG (whatsapp 23/01/2024). Can't find PDF. \"The plasma biotransformation products of oxaliplatin are unlikely to contribute to its efficacy or toxicity\""
+    },
+    {
+      "id": 98,
+      "authors": "Shimazu et al, 2005",
+      "doi": "10.1002/jcp.20309",
+      "title": "Multiple Acute Effects on the Membrane Potential of PC12 Cells Produced by Nerve Growth Factor (NGF)",
+      "keywords": ["PC12", "Membrane potential", "NGF", "Nerve growth factor"],
+      "models": ["PC12"],
+      "techniques": [],
+      "results": [
+        "Since the sum (K+ & Na+)i was set at 145 mM, absolute values of resting membrane potentials of PC12 cells, 40.27 ± 18.27 (mean ± SD, N = 113, SEM = 1.7 mV) in this study are approximate ones"
+      ],
+      "notes": "Journal of Cellular Physiology"
+    },
+    {
+      "id": 99,
+      "authors": "Zhou et al, 2010",
+      "doi": "10.1186/1471-2164-11-75",
+      "title": "Normalization with genes encoding ribosomal proteins but not GAPDH provides an accurate quantification of gene expressions in neuronal differentiation of PC12 cells",
+      "keywords": [
+        "PC12",
+        "Housekeeping genes",
+        "GAPDH",
+        "Ribosomal proteins",
+        "Neuronal differentiation"
+      ],
+      "models": ["PC12 differenciated by different means (including NGF)"],
+      "techniques": ["qRT-PCR"],
+      "results": [
+        "La GAPDH n'est pas un bon gène de ménage, la beta-actine n'est pas idéale, contrairement aux gènes des protéines ribosomales RPL19 et RPL20 qui sont exprimés stablement au fil de la différenciation"
+      ],
+      "notes": "Genomics. Attention, on parle ici d'expression et non de présence des protéines"
+    },
+    {
+      "id": 100,
+      "authors": "Fallon et al, 2015",
+      "doi": "10.1007/s00520-015-2642-8",
+      "title": "Cancer treatment-related neuropathic pain: proof of concept study with menthol—a TRPM8 agonist",
+      "keywords": [
+        "CIPN",
+        "Menthol",
+        "TRPM8",
+        "Neuropathic pain",
+        "Cancer treatment"
+      ],
+      "models": ["Patients with CIPN (35/51) or scar pain (10/51)"],
+      "techniques": ["Questionnaire (brief pain inventory)"],
+      "results": [
+        "Treatment of painful area with menthol cream twice a day → less self-reported pain"
+      ],
+      "notes": "Support care cancer. \"Menthol has potential as a novel analgesic therapy for cancer treatment-related neuropathic pain\". J'ai lu seulement l'abstract"
     }
   ]
 }
