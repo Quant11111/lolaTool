@@ -25,5 +25,5 @@ jobs:
         run: |
           rm -rf .next
           npm run build
-      - name: restart pm2 harry instance
+      - name: restart pm2 lolatool instance
         run: pm2 restart lolatool
